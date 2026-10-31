@@ -1,0 +1,38 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual Environment (Thư mục môi trường ảo trên máy các bạn)
+venv/
+env/
+.env
+.venv/
+
+# Cấu hình IDE cá nhân (Đã sửa lỗi gõ nhầm chữ s)
+.vscode/
+.idea/
+
+# OS temp files
+.DS_Store
+Thumbs.db
+
+# Data & CSV (Không đẩy dữ liệu nặng lên Git)
+*.csv
+data/raw/
+data/processed/X.npy
+data/processed/y.npy
+
+# Models nặng (Chỉ dùng lúc train Keras)
+*.h5
+*.keras
+
+# NGOẠI LỆ (BẮT BUỘC ĐẨY LÊN GIT):
+# 1. Cho phép đẩy danh sách tên nhãn và mô hình ONNX siêu nhẹ để bạn trong nhóm chạy được app ngay
+!data/processed/classes.npy
+!models/*.onnx
+
+# 2. Giữ cấu trúc thư mục rỗng khi người khác clone về
+!data/processed/.gitkeep
+!models/.gitkeep
+!results/figures/.gitkeep
