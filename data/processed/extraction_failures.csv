@@ -1,0 +1,88 @@
+﻿sample_id,relative_path,label,participant_id,split,reason
+RAW_000120,0/P1_0_26.jpg,0,P1,train,no_hand_detected
+RAW_000123,0/P1_0_29.jpg,0,P1,train,no_hand_detected
+RAW_000131,0/P1_0_36.jpg,0,P1,train,no_hand_detected
+RAW_000133,0/P1_0_38.jpg,0,P1,train,no_hand_detected
+RAW_000134,0/P1_0_39.jpg,0,P1,train,no_hand_detected
+RAW_000145,0/P1_0_49.jpg,0,P1,train,no_hand_detected
+RAW_000149,0/P1_0_52.jpg,0,P1,train,no_hand_detected
+RAW_000153,0/P1_0_56.jpg,0,P1,train,no_hand_detected
+RAW_000159,0/P1_0_61.jpg,0,P1,train,no_hand_detected
+RAW_000203,0/P2_0_103.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000249,0/P2_0_149.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000251,0/P2_0_151.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000252,0/P2_0_152.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000253,0/P2_0_153.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000254,0/P2_0_154.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000255,0/P2_0_155.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000256,0/P2_0_156.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000258,0/P2_0_158.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000260,0/P2_0_160.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000261,0/P2_0_161.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000263,0/P2_0_163.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000267,0/P2_0_167.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000269,0/P2_0_169.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000271,0/P2_0_171.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000274,0/P2_0_174.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000275,0/P2_0_175.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000276,0/P2_0_176.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000277,0/P2_0_177.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000278,0/P2_0_178.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000280,0/P2_0_180.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000281,0/P2_0_181.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000282,0/P2_0_182.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000283,0/P2_0_183.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000284,0/P2_0_184.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000285,0/P2_0_185.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000286,0/P2_0_186.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000288,0/P2_0_188.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000291,0/P2_0_191.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000292,0/P2_0_192.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000293,0/P2_0_193.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000294,0/P2_0_194.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000295,0/P2_0_195.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000296,0/P2_0_196.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000297,0/P2_0_197.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000298,0/P2_0_198.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000299,0/P2_0_199.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000300,0/P2_0_200.jpg,0,P2,train,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_000316,0/P3_0_216.jpg,0,P3,train,no_hand_detected
+RAW_000344,0/P3_0_244.jpg,0,P3,train,no_hand_detected
+RAW_000350,0/P3_0_250.jpg,0,P3,train,no_hand_detected
+RAW_000372,0/P3_0_272.jpg,0,P3,train,no_hand_detected
+RAW_000375,0/P3_0_275.jpg,0,P3,train,no_hand_detected
+RAW_000385,0/P3_0_285.jpg,0,P3,train,no_hand_detected
+RAW_000393,0/P3_0_293.jpg,0,P3,train,no_hand_detected
+RAW_000395,0/P3_0_295.jpg,0,P3,train,no_hand_detected
+RAW_012902,C/P9_C_802.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012904,C/P9_C_804.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012905,C/P9_C_805.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012907,C/P9_C_807.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012909,C/P9_C_809.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012922,C/P9_C_822.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012930,C/P9_C_830.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012934,C/P9_C_834.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012935,C/P9_C_835.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012938,C/P9_C_838.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012939,C/P9_C_839.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012940,C/P9_C_840.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012943,C/P9_C_843.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012944,C/P9_C_844.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012945,C/P9_C_845.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012947,C/P9_C_847.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012952,C/P9_C_852.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012953,C/P9_C_853.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012954,C/P9_C_854.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012955,C/P9_C_855.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012958,C/P9_C_858.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012960,C/P9_C_860.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012963,C/P9_C_863.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012964,C/P9_C_864.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012970,C/P9_C_870.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012971,C/P9_C_871.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012976,C/P9_C_876.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012978,C/P9_C_878.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_012979,C/P9_C_879.jpg,C,P9,test,"63D yêu cầu đúng 1 bàn tay, thấy 2"
+RAW_027355,R/P3_R_255.jpg,R,P3,train,no_hand_detected
+RAW_027356,R/P3_R_256.jpg,R,P3,train,no_hand_detected
+RAW_027383,R/P3_R_283.jpg,R,P3,train,no_hand_detected

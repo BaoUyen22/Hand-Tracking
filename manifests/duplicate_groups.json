@@ -1,0 +1,9149 @@
+[
+  {
+    "duplicate_group": "EXACT_0012ea249b497b81",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031573",
+      "RAW_031673"
+    ],
+    "relative_paths": [
+      "V/P5_V_473.jpg",
+      "V/P6_V_573.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031573",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_0121461e1b20f356",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_008221",
+      "RAW_008222"
+    ],
+    "relative_paths": [
+      "8/P2_8_121.jpg",
+      "8/P2_8_122.jpg"
+    ],
+    "labels": [
+      "8"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_008221",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_020a3aa44a9700a4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031579",
+      "RAW_031679"
+    ],
+    "relative_paths": [
+      "V/P5_V_479.jpg",
+      "V/P6_V_579.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031579",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_02cb945327c47ff4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018541",
+      "RAW_018641"
+    ],
+    "relative_paths": [
+      "I/P5_I_441.jpg",
+      "I/P6_I_541.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018541",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_03d9813ff6366dab",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_020023",
+      "RAW_020024"
+    ],
+    "relative_paths": [
+      "K/P10_K_922.jpg",
+      "K/P10_K_923.jpg"
+    ],
+    "labels": [
+      "K"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_020023",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_03de85c3d7484817",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_034075",
+      "RAW_034076",
+      "RAW_034077"
+    ],
+    "relative_paths": [
+      "Y/P10_Y_974.jpg",
+      "Y/P10_Y_975.jpg",
+      "Y/P10_Y_976.jpg"
+    ],
+    "labels": [
+      "Y"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_034075",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_05225fb5a408c32c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_013227",
+      "RAW_013228"
+    ],
+    "relative_paths": [
+      "D/P2_D_127.jpg",
+      "D/P2_D_128.jpg"
+    ],
+    "labels": [
+      "D"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_013227",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_053bc41d1d0e4e5c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_025016",
+      "RAW_025017"
+    ],
+    "relative_paths": [
+      "P/P10_P_915.jpg",
+      "P/P10_P_916.jpg"
+    ],
+    "labels": [
+      "P"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_025016",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_05551bd1ea6ced2f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018581",
+      "RAW_018681"
+    ],
+    "relative_paths": [
+      "I/P5_I_481.jpg",
+      "I/P6_I_581.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018581",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_06fcbcce3c3f55fd",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031508",
+      "RAW_031608"
+    ],
+    "relative_paths": [
+      "V/P5_V_408.jpg",
+      "V/P6_V_508.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031508",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_08010a873764159e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_024068",
+      "RAW_024070"
+    ],
+    "relative_paths": [
+      "O/P10_O_967.jpg",
+      "O/P10_O_969.jpg"
+    ],
+    "labels": [
+      "O"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_024068",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_0897e30ce6b5feaa",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_012520",
+      "RAW_012521",
+      "RAW_012522",
+      "RAW_012523"
+    ],
+    "relative_paths": [
+      "C/P5_C_420.jpg",
+      "C/P5_C_421.jpg",
+      "C/P5_C_422.jpg",
+      "C/P5_C_423.jpg"
+    ],
+    "labels": [
+      "C"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_012520",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_08ad0b44bf1b6bf7",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_006259",
+      "RAW_006260",
+      "RAW_006261"
+    ],
+    "relative_paths": [
+      "6/P2_6_159.jpg",
+      "6/P2_6_160.jpg",
+      "6/P2_6_161.jpg"
+    ],
+    "labels": [
+      "6"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_006259",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_08e5d392dca69670",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031584",
+      "RAW_031684"
+    ],
+    "relative_paths": [
+      "V/P5_V_484.jpg",
+      "V/P6_V_584.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031584",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_0952b89c0cc67a87",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018567",
+      "RAW_018667"
+    ],
+    "relative_paths": [
+      "I/P5_I_467.jpg",
+      "I/P6_I_567.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018567",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_0ba824f76e57ab25",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_020705",
+      "RAW_020706"
+    ],
+    "relative_paths": [
+      "K/P7_K_605.jpg",
+      "K/P7_K_606.jpg"
+    ],
+    "labels": [
+      "K"
+    ],
+    "participants": [
+      "P7"
+    ],
+    "representative_sample_id": "RAW_020705",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_0bb9eeef45daf6ba",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_007231",
+      "RAW_007232",
+      "RAW_007233"
+    ],
+    "relative_paths": [
+      "7/P2_7_131.jpg",
+      "7/P2_7_132.jpg",
+      "7/P2_7_133.jpg"
+    ],
+    "labels": [
+      "7"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_007231",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_0e99a0de9500a467",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_001059",
+      "RAW_001060"
+    ],
+    "relative_paths": [
+      "1/P10_1_958.jpg",
+      "1/P10_1_959.jpg"
+    ],
+    "labels": [
+      "1"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_001059",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_0f10d93e848c0602",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031551",
+      "RAW_031651"
+    ],
+    "relative_paths": [
+      "V/P5_V_451.jpg",
+      "V/P6_V_551.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031551",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_10658e2b53a6e233",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_011039",
+      "RAW_011040"
+    ],
+    "relative_paths": [
+      "B/P10_B_938.jpg",
+      "B/P10_B_939.jpg"
+    ],
+    "labels": [
+      "B"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_011039",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_10fbf3bfeef43e27",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_030285",
+      "RAW_030286",
+      "RAW_030287"
+    ],
+    "relative_paths": [
+      "U/P2_U_185.jpg",
+      "U/P2_U_186.jpg",
+      "U/P2_U_187.jpg"
+    ],
+    "labels": [
+      "U"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_030285",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_11635d864ababd99",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_024202",
+      "RAW_024204"
+    ],
+    "relative_paths": [
+      "O/P2_O_102.jpg",
+      "O/P2_O_104.jpg"
+    ],
+    "labels": [
+      "O"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_024202",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1380b405f8f0fe9e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_011031",
+      "RAW_011032",
+      "RAW_011033"
+    ],
+    "relative_paths": [
+      "B/P10_B_930.jpg",
+      "B/P10_B_931.jpg",
+      "B/P10_B_932.jpg"
+    ],
+    "labels": [
+      "B"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_011031",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_14bee1b02d3cd463",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_011718",
+      "RAW_011719"
+    ],
+    "relative_paths": [
+      "B/P7_B_618.jpg",
+      "B/P7_B_619.jpg"
+    ],
+    "labels": [
+      "B"
+    ],
+    "participants": [
+      "P7"
+    ],
+    "representative_sample_id": "RAW_011718",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1515d3f73155b2f0",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018037",
+      "RAW_018038"
+    ],
+    "relative_paths": [
+      "I/P10_I_936.jpg",
+      "I/P10_I_937.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_018037",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_15854dc3d489f45c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_026002",
+      "RAW_026014"
+    ],
+    "relative_paths": [
+      "Q/P10_Q_901.jpg",
+      "Q/P10_Q_913.jpg"
+    ],
+    "labels": [
+      "Q"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_026002",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_173fc0878303f699",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018574",
+      "RAW_018674"
+    ],
+    "relative_paths": [
+      "I/P5_I_474.jpg",
+      "I/P6_I_574.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018574",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1797d34561fe4c55",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_020714",
+      "RAW_020715",
+      "RAW_020716",
+      "RAW_020717",
+      "RAW_020718",
+      "RAW_020719"
+    ],
+    "relative_paths": [
+      "K/P7_K_614.jpg",
+      "K/P7_K_615.jpg",
+      "K/P7_K_616.jpg",
+      "K/P7_K_617.jpg",
+      "K/P7_K_618.jpg",
+      "K/P7_K_619.jpg"
+    ],
+    "labels": [
+      "K"
+    ],
+    "participants": [
+      "P7"
+    ],
+    "representative_sample_id": "RAW_020714",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_17b999a0663df275",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_001007",
+      "RAW_001008"
+    ],
+    "relative_paths": [
+      "1/P10_1_906.jpg",
+      "1/P10_1_907.jpg"
+    ],
+    "labels": [
+      "1"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_001007",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_17bc2f37c586e790",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_006806",
+      "RAW_006807"
+    ],
+    "relative_paths": [
+      "6/P8_6_706.jpg",
+      "6/P8_6_707.jpg"
+    ],
+    "labels": [
+      "6"
+    ],
+    "participants": [
+      "P8"
+    ],
+    "representative_sample_id": "RAW_006806",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_17e5e239f0da2124",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031548",
+      "RAW_031648"
+    ],
+    "relative_paths": [
+      "V/P5_V_448.jpg",
+      "V/P6_V_548.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031548",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1826a39c004793dc",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_026043",
+      "RAW_026044",
+      "RAW_026045"
+    ],
+    "relative_paths": [
+      "Q/P10_Q_942.jpg",
+      "Q/P10_Q_943.jpg",
+      "Q/P10_Q_944.jpg"
+    ],
+    "labels": [
+      "Q"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_026043",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1899c460988f5e4f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_014737",
+      "RAW_014738"
+    ],
+    "relative_paths": [
+      "E/P7_E_637.jpg",
+      "E/P7_E_638.jpg"
+    ],
+    "labels": [
+      "E"
+    ],
+    "participants": [
+      "P7"
+    ],
+    "representative_sample_id": "RAW_014737",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_18a76e0d9240c6e3",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_035053",
+      "RAW_035054"
+    ],
+    "relative_paths": [
+      "Z/P10_Z_952.jpg",
+      "Z/P10_Z_953.jpg"
+    ],
+    "labels": [
+      "Z"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_035053",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_19009955f5f207f1",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_000209",
+      "RAW_000210"
+    ],
+    "relative_paths": [
+      "0/P2_0_109.jpg",
+      "0/P2_0_110.jpg"
+    ],
+    "labels": [
+      "0"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_000209",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1923ef82b84091ca",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018542",
+      "RAW_018642"
+    ],
+    "relative_paths": [
+      "I/P5_I_442.jpg",
+      "I/P6_I_542.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018542",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1971b09375c07228",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031599",
+      "RAW_031699"
+    ],
+    "relative_paths": [
+      "V/P5_V_499.jpg",
+      "V/P6_V_599.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031599",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_19c888dc3a1f4397",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031596",
+      "RAW_031696"
+    ],
+    "relative_paths": [
+      "V/P5_V_496.jpg",
+      "V/P6_V_596.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031596",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_19fef34a16906590",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031522",
+      "RAW_031622"
+    ],
+    "relative_paths": [
+      "V/P5_V_422.jpg",
+      "V/P6_V_522.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031522",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1a39102a163f22aa",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_005233",
+      "RAW_005234",
+      "RAW_005236",
+      "RAW_005237"
+    ],
+    "relative_paths": [
+      "5/P2_5_133.jpg",
+      "5/P2_5_134.jpg",
+      "5/P2_5_136.jpg",
+      "5/P2_5_137.jpg"
+    ],
+    "labels": [
+      "5"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_005233",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1b93450cb1cf3723",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_023032",
+      "RAW_023033"
+    ],
+    "relative_paths": [
+      "N/P10_N_931.jpg",
+      "N/P10_N_932.jpg"
+    ],
+    "labels": [
+      "N"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_023032",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1ba179cfad3d293e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018520",
+      "RAW_018620"
+    ],
+    "relative_paths": [
+      "I/P5_I_420.jpg",
+      "I/P6_I_520.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018520",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1cb7180b2e11587d",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_016025",
+      "RAW_016036",
+      "RAW_016047"
+    ],
+    "relative_paths": [
+      "G/P10_G_924.jpg",
+      "G/P10_G_935.jpg",
+      "G/P10_G_946.jpg"
+    ],
+    "labels": [
+      "G"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_016025",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1cc272fb09f50205",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_027027",
+      "RAW_027028",
+      "RAW_027029"
+    ],
+    "relative_paths": [
+      "R/P10_R_926.jpg",
+      "R/P10_R_927.jpg",
+      "R/P10_R_928.jpg"
+    ],
+    "labels": [
+      "R"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_027027",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1cfdde5d8e7f4597",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031520",
+      "RAW_031620"
+    ],
+    "relative_paths": [
+      "V/P5_V_420.jpg",
+      "V/P6_V_520.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031520",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1d8ab2165e6b4fa8",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031524",
+      "RAW_031624"
+    ],
+    "relative_paths": [
+      "V/P5_V_424.jpg",
+      "V/P6_V_524.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031524",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1ddaeb6b6de989d4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_034072",
+      "RAW_034073",
+      "RAW_034074"
+    ],
+    "relative_paths": [
+      "Y/P10_Y_971.jpg",
+      "Y/P10_Y_972.jpg",
+      "Y/P10_Y_973.jpg"
+    ],
+    "labels": [
+      "Y"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_034072",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1e264a07d2fb080f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_034521",
+      "RAW_034522"
+    ],
+    "relative_paths": [
+      "Y/P5_Y_421.jpg",
+      "Y/P5_Y_422.jpg"
+    ],
+    "labels": [
+      "Y"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_034521",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1e43e771755bc3d1",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_009213",
+      "RAW_009224",
+      "RAW_009235"
+    ],
+    "relative_paths": [
+      "9/P2_9_113.jpg",
+      "9/P2_9_124.jpg",
+      "9/P2_9_135.jpg"
+    ],
+    "labels": [
+      "9"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_009213",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_1e731c5d37b6f8ae",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031589",
+      "RAW_031689"
+    ],
+    "relative_paths": [
+      "V/P5_V_489.jpg",
+      "V/P6_V_589.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031589",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2090dd3b845b458c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_019577",
+      "RAW_019578"
+    ],
+    "relative_paths": [
+      "J/P5_J_477.jpg",
+      "J/P5_J_478.jpg"
+    ],
+    "labels": [
+      "J"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_019577",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_20c78231990506c4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031577",
+      "RAW_031677"
+    ],
+    "relative_paths": [
+      "V/P5_V_477.jpg",
+      "V/P6_V_577.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031577",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2143c8f52000e796",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018578",
+      "RAW_018678"
+    ],
+    "relative_paths": [
+      "I/P5_I_478.jpg",
+      "I/P6_I_578.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018578",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_227639c39c4aff24",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_013452",
+      "RAW_013453"
+    ],
+    "relative_paths": [
+      "D/P4_D_352.jpg",
+      "D/P4_D_353.jpg"
+    ],
+    "labels": [
+      "D"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_013452",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_23d7231ce76cd6c6",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_014472",
+      "RAW_014473",
+      "RAW_014474",
+      "RAW_014475"
+    ],
+    "relative_paths": [
+      "E/P4_E_372.jpg",
+      "E/P4_E_373.jpg",
+      "E/P4_E_374.jpg",
+      "E/P4_E_375.jpg"
+    ],
+    "labels": [
+      "E"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_014472",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_23fd65df84a64804",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_022832",
+      "RAW_022833"
+    ],
+    "relative_paths": [
+      "M/P8_M_732.jpg",
+      "M/P8_M_733.jpg"
+    ],
+    "labels": [
+      "M"
+    ],
+    "participants": [
+      "P8"
+    ],
+    "representative_sample_id": "RAW_022832",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_24721e5e65bcd63d",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031555",
+      "RAW_031655"
+    ],
+    "relative_paths": [
+      "V/P5_V_455.jpg",
+      "V/P6_V_555.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031555",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_24cf7878897a6162",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_022825",
+      "RAW_022826"
+    ],
+    "relative_paths": [
+      "M/P8_M_725.jpg",
+      "M/P8_M_726.jpg"
+    ],
+    "labels": [
+      "M"
+    ],
+    "participants": [
+      "P8"
+    ],
+    "representative_sample_id": "RAW_022825",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_24eb96f0be85ea54",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_011711",
+      "RAW_011712",
+      "RAW_011714",
+      "RAW_011715",
+      "RAW_011716",
+      "RAW_011717"
+    ],
+    "relative_paths": [
+      "B/P7_B_611.jpg",
+      "B/P7_B_612.jpg",
+      "B/P7_B_614.jpg",
+      "B/P7_B_615.jpg",
+      "B/P7_B_616.jpg",
+      "B/P7_B_617.jpg"
+    ],
+    "labels": [
+      "B"
+    ],
+    "participants": [
+      "P7"
+    ],
+    "representative_sample_id": "RAW_011711",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_250ddd19705d0c36",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018582",
+      "RAW_018682"
+    ],
+    "relative_paths": [
+      "I/P5_I_482.jpg",
+      "I/P6_I_582.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018582",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2560d3a7ed98574c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_029244",
+      "RAW_029245"
+    ],
+    "relative_paths": [
+      "T/P2_T_144.jpg",
+      "T/P2_T_145.jpg"
+    ],
+    "labels": [
+      "T"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_029244",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_26159b72b4ad6ff0",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_009292",
+      "RAW_009293",
+      "RAW_009294"
+    ],
+    "relative_paths": [
+      "9/P2_9_192.jpg",
+      "9/P2_9_193.jpg",
+      "9/P2_9_194.jpg"
+    ],
+    "labels": [
+      "9"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_009292",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_261925ec14842661",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_002573",
+      "RAW_002574"
+    ],
+    "relative_paths": [
+      "2/P5_2_473.jpg",
+      "2/P5_2_474.jpg"
+    ],
+    "labels": [
+      "2"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_002573",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2651d3d0fde07afa",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_001231",
+      "RAW_001232"
+    ],
+    "relative_paths": [
+      "1/P2_1_131.jpg",
+      "1/P2_1_132.jpg"
+    ],
+    "labels": [
+      "1"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_001231",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_268f329de065111a",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_002695",
+      "RAW_002699"
+    ],
+    "relative_paths": [
+      "2/P6_2_595.jpg",
+      "2/P6_2_599.jpg"
+    ],
+    "labels": [
+      "2"
+    ],
+    "participants": [
+      "P6"
+    ],
+    "representative_sample_id": "RAW_002695",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_26b0758aff088143",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018257",
+      "RAW_018268"
+    ],
+    "relative_paths": [
+      "I/P2_I_157.jpg",
+      "I/P2_I_168.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_018257",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_27c95d698273df36",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031544",
+      "RAW_031644"
+    ],
+    "relative_paths": [
+      "V/P5_V_444.jpg",
+      "V/P6_V_544.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031544",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_28651677fd9012fc",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_013060",
+      "RAW_013061",
+      "RAW_013062"
+    ],
+    "relative_paths": [
+      "D/P10_D_959.jpg",
+      "D/P10_D_960.jpg",
+      "D/P10_D_961.jpg"
+    ],
+    "labels": [
+      "D"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_013060",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2a9f0eb9da060388",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031561",
+      "RAW_031661"
+    ],
+    "relative_paths": [
+      "V/P5_V_461.jpg",
+      "V/P6_V_561.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031561",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2aa38c667696527c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_024474",
+      "RAW_024475"
+    ],
+    "relative_paths": [
+      "O/P4_O_374.jpg",
+      "O/P4_O_375.jpg"
+    ],
+    "labels": [
+      "O"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_024474",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2ac8208528c4d410",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_021210",
+      "RAW_021211"
+    ],
+    "relative_paths": [
+      "L/P2_L_110.jpg",
+      "L/P2_L_111.jpg"
+    ],
+    "labels": [
+      "L"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_021210",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2adef4293303be63",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_025402",
+      "RAW_025404"
+    ],
+    "relative_paths": [
+      "P/P4_P_302.jpg",
+      "P/P4_P_304.jpg"
+    ],
+    "labels": [
+      "P"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_025402",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2b55bf2138c2daf0",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_005223",
+      "RAW_005225",
+      "RAW_005226",
+      "RAW_005227"
+    ],
+    "relative_paths": [
+      "5/P2_5_123.jpg",
+      "5/P2_5_125.jpg",
+      "5/P2_5_126.jpg",
+      "5/P2_5_127.jpg"
+    ],
+    "labels": [
+      "5"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_005223",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2be59ea5b55e4e9d",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031587",
+      "RAW_031687"
+    ],
+    "relative_paths": [
+      "V/P5_V_487.jpg",
+      "V/P6_V_587.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031587",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2bf74b3e594697e3",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031514",
+      "RAW_031614"
+    ],
+    "relative_paths": [
+      "V/P5_V_414.jpg",
+      "V/P6_V_514.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031514",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2c188bd7d81a0d0d",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_016462",
+      "RAW_016463"
+    ],
+    "relative_paths": [
+      "G/P4_G_362.jpg",
+      "G/P4_G_363.jpg"
+    ],
+    "labels": [
+      "G"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_016462",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2da479292a9c44a4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031538",
+      "RAW_031638"
+    ],
+    "relative_paths": [
+      "V/P5_V_438.jpg",
+      "V/P6_V_538.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031538",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2e066596560a3b9f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_000268",
+      "RAW_000279"
+    ],
+    "relative_paths": [
+      "0/P2_0_168.jpg",
+      "0/P2_0_179.jpg"
+    ],
+    "labels": [
+      "0"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_000268",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2e0ba396cd775f47",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031565",
+      "RAW_031665"
+    ],
+    "relative_paths": [
+      "V/P5_V_465.jpg",
+      "V/P6_V_565.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031565",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2e6e4dbd78422058",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_008291",
+      "RAW_008292",
+      "RAW_008293"
+    ],
+    "relative_paths": [
+      "8/P2_8_191.jpg",
+      "8/P2_8_192.jpg",
+      "8/P2_8_193.jpg"
+    ],
+    "labels": [
+      "8"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_008291",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2eba28ce2868ba5f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_021085",
+      "RAW_021086"
+    ],
+    "relative_paths": [
+      "L/P10_L_984.jpg",
+      "L/P10_L_985.jpg"
+    ],
+    "labels": [
+      "L"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_021085",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2ee6e7ec848b59f1",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018564",
+      "RAW_018664"
+    ],
+    "relative_paths": [
+      "I/P5_I_464.jpg",
+      "I/P6_I_564.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018564",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2f6e2117e3441ea6",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_034266",
+      "RAW_034267"
+    ],
+    "relative_paths": [
+      "Y/P2_Y_166.jpg",
+      "Y/P2_Y_167.jpg"
+    ],
+    "labels": [
+      "Y"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_034266",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_2ff509c640b350da",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_017073",
+      "RAW_017074"
+    ],
+    "relative_paths": [
+      "H/P10_H_972.jpg",
+      "H/P10_H_973.jpg"
+    ],
+    "labels": [
+      "H"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_017073",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_316f7bf6a3bd9fea",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_034587",
+      "RAW_034588",
+      "RAW_034589",
+      "RAW_034591",
+      "RAW_034592"
+    ],
+    "relative_paths": [
+      "Y/P5_Y_487.jpg",
+      "Y/P5_Y_488.jpg",
+      "Y/P5_Y_489.jpg",
+      "Y/P5_Y_491.jpg",
+      "Y/P5_Y_492.jpg"
+    ],
+    "labels": [
+      "Y"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_034587",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_31a1513f959c9a90",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018501",
+      "RAW_018601"
+    ],
+    "relative_paths": [
+      "I/P5_I_401.jpg",
+      "I/P6_I_501.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018501",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_31a58d521ebec589",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_023780",
+      "RAW_023781",
+      "RAW_023782",
+      "RAW_023783",
+      "RAW_023784"
+    ],
+    "relative_paths": [
+      "N/P7_N_680.jpg",
+      "N/P7_N_681.jpg",
+      "N/P7_N_682.jpg",
+      "N/P7_N_683.jpg",
+      "N/P7_N_684.jpg"
+    ],
+    "labels": [
+      "N"
+    ],
+    "participants": [
+      "P7"
+    ],
+    "representative_sample_id": "RAW_023780",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3354a4e0e98fb35c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018522",
+      "RAW_018622"
+    ],
+    "relative_paths": [
+      "I/P5_I_422.jpg",
+      "I/P6_I_522.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018522",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_33f1a8f84b12e705",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018545",
+      "RAW_018645"
+    ],
+    "relative_paths": [
+      "I/P5_I_445.jpg",
+      "I/P6_I_545.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018545",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_34cc044676e1ce93",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031527",
+      "RAW_031627"
+    ],
+    "relative_paths": [
+      "V/P5_V_427.jpg",
+      "V/P6_V_527.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031527",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_35aeb981ed12651b",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018550",
+      "RAW_018650"
+    ],
+    "relative_paths": [
+      "I/P5_I_450.jpg",
+      "I/P6_I_550.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018550",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_35b13d1c0d1c2912",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018261",
+      "RAW_018262"
+    ],
+    "relative_paths": [
+      "I/P2_I_161.jpg",
+      "I/P2_I_162.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_018261",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3639006b5f5bee34",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_023453",
+      "RAW_023454",
+      "RAW_023455",
+      "RAW_023456"
+    ],
+    "relative_paths": [
+      "N/P4_N_353.jpg",
+      "N/P4_N_354.jpg",
+      "N/P4_N_355.jpg",
+      "N/P4_N_356.jpg"
+    ],
+    "labels": [
+      "N"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_023453",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_36733e3002b21240",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_033267",
+      "RAW_033269",
+      "RAW_033270"
+    ],
+    "relative_paths": [
+      "X/P2_X_167.jpg",
+      "X/P2_X_169.jpg",
+      "X/P2_X_170.jpg"
+    ],
+    "labels": [
+      "X"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_033267",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_36f4cfab2db749af",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018523",
+      "RAW_018623"
+    ],
+    "relative_paths": [
+      "I/P5_I_423.jpg",
+      "I/P6_I_523.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018523",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3768a599de7519ab",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031572",
+      "RAW_031672"
+    ],
+    "relative_paths": [
+      "V/P5_V_472.jpg",
+      "V/P6_V_572.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031572",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_37bdeeefc2119788",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_009073",
+      "RAW_009074"
+    ],
+    "relative_paths": [
+      "9/P10_9_972.jpg",
+      "9/P10_9_973.jpg"
+    ],
+    "labels": [
+      "9"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_009073",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_37ee03360814db53",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031540",
+      "RAW_031640"
+    ],
+    "relative_paths": [
+      "V/P5_V_440.jpg",
+      "V/P6_V_540.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031540",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_38618b201d57c0ff",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031553",
+      "RAW_031653"
+    ],
+    "relative_paths": [
+      "V/P5_V_453.jpg",
+      "V/P6_V_553.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031553",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3905901235225ad2",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_020747",
+      "RAW_020748",
+      "RAW_020749"
+    ],
+    "relative_paths": [
+      "K/P7_K_647.jpg",
+      "K/P7_K_648.jpg",
+      "K/P7_K_649.jpg"
+    ],
+    "labels": [
+      "K"
+    ],
+    "participants": [
+      "P7"
+    ],
+    "representative_sample_id": "RAW_020747",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3931431beb6748d6",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018585",
+      "RAW_018685"
+    ],
+    "relative_paths": [
+      "I/P5_I_485.jpg",
+      "I/P6_I_585.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018585",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3a3d65ea689e3118",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_020764",
+      "RAW_020765"
+    ],
+    "relative_paths": [
+      "K/P7_K_664.jpg",
+      "K/P7_K_665.jpg"
+    ],
+    "labels": [
+      "K"
+    ],
+    "participants": [
+      "P7"
+    ],
+    "representative_sample_id": "RAW_020764",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3b1920b9ddae9848",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_019574",
+      "RAW_019575"
+    ],
+    "relative_paths": [
+      "J/P5_J_474.jpg",
+      "J/P5_J_475.jpg"
+    ],
+    "labels": [
+      "J"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_019574",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3b1a020be1962da5",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031022",
+      "RAW_031023"
+    ],
+    "relative_paths": [
+      "V/P10_V_921.jpg",
+      "V/P10_V_922.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_031022",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3c3b8ffe451c8da6",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_009086",
+      "RAW_009087",
+      "RAW_009088"
+    ],
+    "relative_paths": [
+      "9/P10_9_985.jpg",
+      "9/P10_9_986.jpg",
+      "9/P10_9_987.jpg"
+    ],
+    "labels": [
+      "9"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_009086",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3c44e9ecc30615b9",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_029036",
+      "RAW_029047"
+    ],
+    "relative_paths": [
+      "T/P10_T_935.jpg",
+      "T/P10_T_946.jpg"
+    ],
+    "labels": [
+      "T"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_029036",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3c5575458a31d431",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031506",
+      "RAW_031606"
+    ],
+    "relative_paths": [
+      "V/P5_V_406.jpg",
+      "V/P6_V_506.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031506",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3ceada2e638ac84f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018555",
+      "RAW_018655"
+    ],
+    "relative_paths": [
+      "I/P5_I_455.jpg",
+      "I/P6_I_555.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018555",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3d1eea411ffcedf2",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_017099",
+      "RAW_017100"
+    ],
+    "relative_paths": [
+      "H/P10_H_998.jpg",
+      "H/P10_H_999.jpg"
+    ],
+    "labels": [
+      "H"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_017099",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3dc12ba39fb0c02e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031583",
+      "RAW_031683"
+    ],
+    "relative_paths": [
+      "V/P5_V_483.jpg",
+      "V/P6_V_583.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031583",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3e3db0e053fca151",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031518",
+      "RAW_031618"
+    ],
+    "relative_paths": [
+      "V/P5_V_418.jpg",
+      "V/P6_V_518.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031518",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3e6b78dffcc6ea6c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_035064",
+      "RAW_035065"
+    ],
+    "relative_paths": [
+      "Z/P10_Z_963.jpg",
+      "Z/P10_Z_964.jpg"
+    ],
+    "labels": [
+      "Z"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_035064",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3e9b8b8ac9a7326e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031552",
+      "RAW_031652"
+    ],
+    "relative_paths": [
+      "V/P5_V_452.jpg",
+      "V/P6_V_552.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031552",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3ec7a4b1700d7553",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031559",
+      "RAW_031659"
+    ],
+    "relative_paths": [
+      "V/P5_V_459.jpg",
+      "V/P6_V_559.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031559",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3f8d9b81905f98e1",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_021835",
+      "RAW_021846",
+      "RAW_021857"
+    ],
+    "relative_paths": [
+      "L/P8_L_735.jpg",
+      "L/P8_L_746.jpg",
+      "L/P8_L_757.jpg"
+    ],
+    "labels": [
+      "L"
+    ],
+    "participants": [
+      "P8"
+    ],
+    "representative_sample_id": "RAW_021835",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3feacce05c07c08d",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_011086",
+      "RAW_011087"
+    ],
+    "relative_paths": [
+      "B/P10_B_985.jpg",
+      "B/P10_B_986.jpg"
+    ],
+    "labels": [
+      "B"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_011086",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_3ff16d0d87679494",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_005228",
+      "RAW_005229",
+      "RAW_005230",
+      "RAW_005231",
+      "RAW_005232"
+    ],
+    "relative_paths": [
+      "5/P2_5_128.jpg",
+      "5/P2_5_129.jpg",
+      "5/P2_5_130.jpg",
+      "5/P2_5_131.jpg",
+      "5/P2_5_132.jpg"
+    ],
+    "labels": [
+      "5"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_005228",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_4092f3fa97f86888",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018560",
+      "RAW_018660"
+    ],
+    "relative_paths": [
+      "I/P5_I_460.jpg",
+      "I/P6_I_560.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018560",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_40aea1177cbd71d7",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031571",
+      "RAW_031671"
+    ],
+    "relative_paths": [
+      "V/P5_V_471.jpg",
+      "V/P6_V_571.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031571",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_411206021dde1ce2",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_006058",
+      "RAW_006069",
+      "RAW_006080"
+    ],
+    "relative_paths": [
+      "6/P10_6_957.jpg",
+      "6/P10_6_968.jpg",
+      "6/P10_6_979.jpg"
+    ],
+    "labels": [
+      "6"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_006058",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_435d7190ac864b79",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_009026",
+      "RAW_009027",
+      "RAW_009028"
+    ],
+    "relative_paths": [
+      "9/P10_9_925.jpg",
+      "9/P10_9_926.jpg",
+      "9/P10_9_927.jpg"
+    ],
+    "labels": [
+      "9"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_009026",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_459de597088277b9",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_002222",
+      "RAW_002223"
+    ],
+    "relative_paths": [
+      "2/P2_2_122.jpg",
+      "2/P2_2_123.jpg"
+    ],
+    "labels": [
+      "2"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_002222",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_45c015894538b344",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_014465",
+      "RAW_014466",
+      "RAW_014467",
+      "RAW_014469"
+    ],
+    "relative_paths": [
+      "E/P4_E_365.jpg",
+      "E/P4_E_366.jpg",
+      "E/P4_E_367.jpg",
+      "E/P4_E_369.jpg"
+    ],
+    "labels": [
+      "E"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_014465",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_46477d22e60fc265",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_025435",
+      "RAW_025446"
+    ],
+    "relative_paths": [
+      "P/P4_P_335.jpg",
+      "P/P4_P_346.jpg"
+    ],
+    "labels": [
+      "P"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_025435",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_478ac50636e37766",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_030092",
+      "RAW_030093"
+    ],
+    "relative_paths": [
+      "U/P10_U_991.jpg",
+      "U/P10_U_992.jpg"
+    ],
+    "labels": [
+      "U"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_030092",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_48a3b9edb582c2d8",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_020485",
+      "RAW_020486"
+    ],
+    "relative_paths": [
+      "K/P4_K_385.jpg",
+      "K/P4_K_386.jpg"
+    ],
+    "labels": [
+      "K"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_020485",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_48ff45508cd802af",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_021081",
+      "RAW_021082",
+      "RAW_021083"
+    ],
+    "relative_paths": [
+      "L/P10_L_980.jpg",
+      "L/P10_L_981.jpg",
+      "L/P10_L_982.jpg"
+    ],
+    "labels": [
+      "L"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_021081",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_4a5bf161740374b7",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_016448",
+      "RAW_016449"
+    ],
+    "relative_paths": [
+      "G/P4_G_348.jpg",
+      "G/P4_G_349.jpg"
+    ],
+    "labels": [
+      "G"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_016448",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_4b264d17cc008d1c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018600",
+      "RAW_018700"
+    ],
+    "relative_paths": [
+      "I/P5_I_500.jpg",
+      "I/P6_I_600.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018600",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_4ba4584f67ccfaba",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018596",
+      "RAW_018696"
+    ],
+    "relative_paths": [
+      "I/P5_I_496.jpg",
+      "I/P6_I_596.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018596",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_4c296399050cf17f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_023051",
+      "RAW_023052"
+    ],
+    "relative_paths": [
+      "N/P10_N_950.jpg",
+      "N/P10_N_951.jpg"
+    ],
+    "labels": [
+      "N"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_023051",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_4c5cff671b9d2d24",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_001212",
+      "RAW_001214"
+    ],
+    "relative_paths": [
+      "1/P2_1_112.jpg",
+      "1/P2_1_114.jpg"
+    ],
+    "labels": [
+      "1"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_001212",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_4d096d3aaa6f51b0",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_021802",
+      "RAW_021868",
+      "RAW_021879",
+      "RAW_021890"
+    ],
+    "relative_paths": [
+      "L/P8_L_702.jpg",
+      "L/P8_L_768.jpg",
+      "L/P8_L_779.jpg",
+      "L/P8_L_790.jpg"
+    ],
+    "labels": [
+      "L"
+    ],
+    "participants": [
+      "P8"
+    ],
+    "representative_sample_id": "RAW_021802",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_4e0dd99cc51b92d4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_025260",
+      "RAW_025261",
+      "RAW_025262"
+    ],
+    "relative_paths": [
+      "P/P2_P_160.jpg",
+      "P/P2_P_161.jpg",
+      "P/P2_P_162.jpg"
+    ],
+    "labels": [
+      "P"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_025260",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_4ec944718fd9069d",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018534",
+      "RAW_018634"
+    ],
+    "relative_paths": [
+      "I/P5_I_434.jpg",
+      "I/P6_I_534.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018534",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_4f38346a6d2c7299",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018595",
+      "RAW_018695"
+    ],
+    "relative_paths": [
+      "I/P5_I_495.jpg",
+      "I/P6_I_595.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018595",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_4f930e09fc8c7598",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018511",
+      "RAW_018611"
+    ],
+    "relative_paths": [
+      "I/P5_I_411.jpg",
+      "I/P6_I_511.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018511",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_4fe4ba959f6d09eb",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_009202",
+      "RAW_009204",
+      "RAW_009290"
+    ],
+    "relative_paths": [
+      "9/P2_9_102.jpg",
+      "9/P2_9_104.jpg",
+      "9/P2_9_190.jpg"
+    ],
+    "labels": [
+      "9"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_009202",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_509bce784c09d3f5",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031539",
+      "RAW_031639"
+    ],
+    "relative_paths": [
+      "V/P5_V_439.jpg",
+      "V/P6_V_539.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031539",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_511bf001798fe7ea",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_021441",
+      "RAW_021442"
+    ],
+    "relative_paths": [
+      "L/P4_L_341.jpg",
+      "L/P4_L_342.jpg"
+    ],
+    "labels": [
+      "L"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_021441",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_51bdb4dddf634dd6",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018527",
+      "RAW_018627"
+    ],
+    "relative_paths": [
+      "I/P5_I_427.jpg",
+      "I/P6_I_527.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018527",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_52249001d096fc0e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_007282",
+      "RAW_007283"
+    ],
+    "relative_paths": [
+      "7/P2_7_182.jpg",
+      "7/P2_7_183.jpg"
+    ],
+    "labels": [
+      "7"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_007282",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5298d1ca641cb9a2",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_016084",
+      "RAW_016085"
+    ],
+    "relative_paths": [
+      "G/P10_G_983.jpg",
+      "G/P10_G_984.jpg"
+    ],
+    "labels": [
+      "G"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_016084",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_53d7c978326ac928",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018525",
+      "RAW_018625"
+    ],
+    "relative_paths": [
+      "I/P5_I_425.jpg",
+      "I/P6_I_525.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018525",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_543295d8bb12dbc8",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_029267",
+      "RAW_029269"
+    ],
+    "relative_paths": [
+      "T/P2_T_167.jpg",
+      "T/P2_T_169.jpg"
+    ],
+    "labels": [
+      "T"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_029267",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5458beb0a67f4e93",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018505",
+      "RAW_018605"
+    ],
+    "relative_paths": [
+      "I/P5_I_405.jpg",
+      "I/P6_I_505.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018505",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_54f90778fd1d13ba",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031513",
+      "RAW_031613"
+    ],
+    "relative_paths": [
+      "V/P5_V_413.jpg",
+      "V/P6_V_513.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031513",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_54fd13bf068f75f8",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_027035",
+      "RAW_027037"
+    ],
+    "relative_paths": [
+      "R/P10_R_934.jpg",
+      "R/P10_R_936.jpg"
+    ],
+    "labels": [
+      "R"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_027035",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5587b3f50d466510",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031582",
+      "RAW_031682"
+    ],
+    "relative_paths": [
+      "V/P5_V_482.jpg",
+      "V/P6_V_582.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031582",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_55cb193fdd4fb452",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018554",
+      "RAW_018654"
+    ],
+    "relative_paths": [
+      "I/P5_I_454.jpg",
+      "I/P6_I_554.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018554",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_562eb338a7a5d8b4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018571",
+      "RAW_018671"
+    ],
+    "relative_paths": [
+      "I/P5_I_471.jpg",
+      "I/P6_I_571.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018571",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_56f09397dca8a4da",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_010903",
+      "RAW_010999",
+      "RAW_011000"
+    ],
+    "relative_paths": [
+      "A/P9_A_803.jpg",
+      "A/P9_A_899.jpg",
+      "A/P9_A_900.jpg"
+    ],
+    "labels": [
+      "A"
+    ],
+    "participants": [
+      "P9"
+    ],
+    "representative_sample_id": "RAW_010903",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_57746fe67e4a870c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031590",
+      "RAW_031690"
+    ],
+    "relative_paths": [
+      "V/P5_V_490.jpg",
+      "V/P6_V_590.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031590",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_58cebe3dcfa732fe",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018577",
+      "RAW_018677"
+    ],
+    "relative_paths": [
+      "I/P5_I_477.jpg",
+      "I/P6_I_577.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018577",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5992a873c96176bd",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031547",
+      "RAW_031647"
+    ],
+    "relative_paths": [
+      "V/P5_V_447.jpg",
+      "V/P6_V_547.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031547",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5abd600b3b5c8630",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018566",
+      "RAW_018666"
+    ],
+    "relative_paths": [
+      "I/P5_I_466.jpg",
+      "I/P6_I_566.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018566",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5ad029768a031a06",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_010504",
+      "RAW_010505",
+      "RAW_010506"
+    ],
+    "relative_paths": [
+      "A/P5_A_404.jpg",
+      "A/P5_A_405.jpg",
+      "A/P5_A_406.jpg"
+    ],
+    "labels": [
+      "A"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_010504",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5b769522ef546675",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_005053",
+      "RAW_005054",
+      "RAW_005055"
+    ],
+    "relative_paths": [
+      "5/P10_5_952.jpg",
+      "5/P10_5_953.jpg",
+      "5/P10_5_954.jpg"
+    ],
+    "labels": [
+      "5"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_005053",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5bcfb91d65569b35",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_016285",
+      "RAW_016286"
+    ],
+    "relative_paths": [
+      "G/P2_G_185.jpg",
+      "G/P2_G_186.jpg"
+    ],
+    "labels": [
+      "G"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_016285",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5bf0e24a2f90ee63",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031569",
+      "RAW_031669"
+    ],
+    "relative_paths": [
+      "V/P5_V_469.jpg",
+      "V/P6_V_569.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031569",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5bf5b2e867937245",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031568",
+      "RAW_031668"
+    ],
+    "relative_paths": [
+      "V/P5_V_468.jpg",
+      "V/P6_V_568.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031568",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5c551d36588ce44b",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018540",
+      "RAW_018640"
+    ],
+    "relative_paths": [
+      "I/P5_I_440.jpg",
+      "I/P6_I_540.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018540",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5c9497c36737d5ed",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_020206",
+      "RAW_020207",
+      "RAW_020208"
+    ],
+    "relative_paths": [
+      "K/P2_K_106.jpg",
+      "K/P2_K_107.jpg",
+      "K/P2_K_108.jpg"
+    ],
+    "labels": [
+      "K"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_020206",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5cc263fb63d3d77c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018535",
+      "RAW_018635"
+    ],
+    "relative_paths": [
+      "I/P5_I_435.jpg",
+      "I/P6_I_535.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018535",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5d3821efb81bfc80",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018580",
+      "RAW_018680"
+    ],
+    "relative_paths": [
+      "I/P5_I_480.jpg",
+      "I/P6_I_580.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018580",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5e3e898168152eef",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018536",
+      "RAW_018636"
+    ],
+    "relative_paths": [
+      "I/P5_I_436.jpg",
+      "I/P6_I_536.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018536",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5e536bb05623cc50",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_005536",
+      "RAW_005537",
+      "RAW_005538",
+      "RAW_005539"
+    ],
+    "relative_paths": [
+      "5/P5_5_436.jpg",
+      "5/P5_5_437.jpg",
+      "5/P5_5_438.jpg",
+      "5/P5_5_439.jpg"
+    ],
+    "labels": [
+      "5"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_005536",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5ea6a748de99a08f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018561",
+      "RAW_018661"
+    ],
+    "relative_paths": [
+      "I/P5_I_461.jpg",
+      "I/P6_I_561.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018561",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5fe049f330b6f332",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_001233",
+      "RAW_001234"
+    ],
+    "relative_paths": [
+      "1/P2_1_133.jpg",
+      "1/P2_1_134.jpg"
+    ],
+    "labels": [
+      "1"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_001233",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_5fe11731a05bfacc",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_007052",
+      "RAW_007053"
+    ],
+    "relative_paths": [
+      "7/P10_7_951.jpg",
+      "7/P10_7_952.jpg"
+    ],
+    "labels": [
+      "7"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_007052",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_603af3771121082b",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_026054",
+      "RAW_026055",
+      "RAW_026056"
+    ],
+    "relative_paths": [
+      "Q/P10_Q_953.jpg",
+      "Q/P10_Q_954.jpg",
+      "Q/P10_Q_955.jpg"
+    ],
+    "labels": [
+      "Q"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_026054",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_60e10353a2680df5",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_008098",
+      "RAW_008099"
+    ],
+    "relative_paths": [
+      "8/P10_8_997.jpg",
+      "8/P10_8_998.jpg"
+    ],
+    "labels": [
+      "8"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_008098",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_60fa5d74fadda550",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031531",
+      "RAW_031631"
+    ],
+    "relative_paths": [
+      "V/P5_V_431.jpg",
+      "V/P6_V_531.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031531",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_61a5cafc7ecf064b",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_013072",
+      "RAW_013073"
+    ],
+    "relative_paths": [
+      "D/P10_D_971.jpg",
+      "D/P10_D_972.jpg"
+    ],
+    "labels": [
+      "D"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_013072",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_61b2055ba2fb781d",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_002007",
+      "RAW_002008"
+    ],
+    "relative_paths": [
+      "2/P10_2_906.jpg",
+      "2/P10_2_907.jpg"
+    ],
+    "labels": [
+      "2"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_002007",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_61e5ba8b9d90dc43",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018599",
+      "RAW_018699"
+    ],
+    "relative_paths": [
+      "I/P5_I_499.jpg",
+      "I/P6_I_599.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018599",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_62398438ccf4cb2c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_006094",
+      "RAW_006095"
+    ],
+    "relative_paths": [
+      "6/P10_6_993.jpg",
+      "6/P10_6_994.jpg"
+    ],
+    "labels": [
+      "6"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_006094",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_6267e72d18e0d615",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_009249",
+      "RAW_009250",
+      "RAW_009251"
+    ],
+    "relative_paths": [
+      "9/P2_9_149.jpg",
+      "9/P2_9_150.jpg",
+      "9/P2_9_151.jpg"
+    ],
+    "labels": [
+      "9"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_009249",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_6287160f1d72a99b",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031543",
+      "RAW_031643"
+    ],
+    "relative_paths": [
+      "V/P5_V_443.jpg",
+      "V/P6_V_543.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031543",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_62de6e1bdee26bef",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_009055",
+      "RAW_009056",
+      "RAW_009057"
+    ],
+    "relative_paths": [
+      "9/P10_9_954.jpg",
+      "9/P10_9_955.jpg",
+      "9/P10_9_956.jpg"
+    ],
+    "labels": [
+      "9"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_009055",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_639a401e111fc891",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018521",
+      "RAW_018621"
+    ],
+    "relative_paths": [
+      "I/P5_I_421.jpg",
+      "I/P6_I_521.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018521",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_63f3fd96a25f6047",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018281",
+      "RAW_018282"
+    ],
+    "relative_paths": [
+      "I/P2_I_181.jpg",
+      "I/P2_I_182.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_018281",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_64c1822d4b8935e4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_022001",
+      "RAW_022004"
+    ],
+    "relative_paths": [
+      "M/P10_M_1000.jpg",
+      "M/P10_M_903.jpg"
+    ],
+    "labels": [
+      "M"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_022001",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_64c5c2ac68e6de95",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018533",
+      "RAW_018633"
+    ],
+    "relative_paths": [
+      "I/P5_I_433.jpg",
+      "I/P6_I_533.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018533",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_64f3efb8c0fe5779",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_000272",
+      "RAW_000273"
+    ],
+    "relative_paths": [
+      "0/P2_0_172.jpg",
+      "0/P2_0_173.jpg"
+    ],
+    "labels": [
+      "0"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_000272",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_6599e5c0c3ef455c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031536",
+      "RAW_031636"
+    ],
+    "relative_paths": [
+      "V/P5_V_436.jpg",
+      "V/P6_V_536.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031536",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_65f305c715b5ba94",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031562",
+      "RAW_031662"
+    ],
+    "relative_paths": [
+      "V/P5_V_462.jpg",
+      "V/P6_V_562.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031562",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_662cd04b1a5bed14",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_025296",
+      "RAW_025297",
+      "RAW_025298"
+    ],
+    "relative_paths": [
+      "P/P2_P_196.jpg",
+      "P/P2_P_197.jpg",
+      "P/P2_P_198.jpg"
+    ],
+    "labels": [
+      "P"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_025296",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_6682a2dbb954c20a",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_033265",
+      "RAW_033266"
+    ],
+    "relative_paths": [
+      "X/P2_X_165.jpg",
+      "X/P2_X_166.jpg"
+    ],
+    "labels": [
+      "X"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_033265",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_6770244de84e06a2",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018559",
+      "RAW_018659"
+    ],
+    "relative_paths": [
+      "I/P5_I_459.jpg",
+      "I/P6_I_559.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018559",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_6779237f4a05b5e6",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018575",
+      "RAW_018675"
+    ],
+    "relative_paths": [
+      "I/P5_I_475.jpg",
+      "I/P6_I_575.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018575",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_68d5ad8af966ee0e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018531",
+      "RAW_018631"
+    ],
+    "relative_paths": [
+      "I/P5_I_431.jpg",
+      "I/P6_I_531.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018531",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_6984e4b9c3f0d836",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031263",
+      "RAW_031264"
+    ],
+    "relative_paths": [
+      "V/P2_V_163.jpg",
+      "V/P2_V_164.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_031263",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_699ab95d9e0802ed",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_005265",
+      "RAW_005266"
+    ],
+    "relative_paths": [
+      "5/P2_5_165.jpg",
+      "5/P2_5_166.jpg"
+    ],
+    "labels": [
+      "5"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_005265",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_6a93ebf066d1f9e0",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018509",
+      "RAW_018609"
+    ],
+    "relative_paths": [
+      "I/P5_I_409.jpg",
+      "I/P6_I_509.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018509",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_6b288a893137669f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018513",
+      "RAW_018613"
+    ],
+    "relative_paths": [
+      "I/P5_I_413.jpg",
+      "I/P6_I_513.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018513",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_6c293c2ab3fbf3d4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031564",
+      "RAW_031664"
+    ],
+    "relative_paths": [
+      "V/P5_V_464.jpg",
+      "V/P6_V_564.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031564",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_6c50bd14ce848ffb",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_021069",
+      "RAW_021080"
+    ],
+    "relative_paths": [
+      "L/P10_L_968.jpg",
+      "L/P10_L_979.jpg"
+    ],
+    "labels": [
+      "L"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_021069",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_6d0c3fe623fc97b2",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_003221",
+      "RAW_003222"
+    ],
+    "relative_paths": [
+      "3/P2_3_121.jpg",
+      "3/P2_3_122.jpg"
+    ],
+    "labels": [
+      "3"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_003221",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_6ead8ea25e29ff6a",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_019402",
+      "RAW_019404"
+    ],
+    "relative_paths": [
+      "J/P4_J_302.jpg",
+      "J/P4_J_304.jpg"
+    ],
+    "labels": [
+      "J"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_019402",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_6eaea97bec484c63",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031509",
+      "RAW_031609"
+    ],
+    "relative_paths": [
+      "V/P5_V_409.jpg",
+      "V/P6_V_509.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031509",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_6eb163805df13d5f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018590",
+      "RAW_018690"
+    ],
+    "relative_paths": [
+      "I/P5_I_490.jpg",
+      "I/P6_I_590.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018590",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_70a00d23d1b4e412",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_000006",
+      "RAW_000007",
+      "RAW_000008",
+      "RAW_000009"
+    ],
+    "relative_paths": [
+      "0/P10_0_905.jpg",
+      "0/P10_0_906.jpg",
+      "0/P10_0_907.jpg",
+      "0/P10_0_908.jpg"
+    ],
+    "labels": [
+      "0"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_000006",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_72aff6452afa021f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018573",
+      "RAW_018673"
+    ],
+    "relative_paths": [
+      "I/P5_I_473.jpg",
+      "I/P6_I_573.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018573",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_72f698d8e408d244",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_006201",
+      "RAW_006213"
+    ],
+    "relative_paths": [
+      "6/P2_6_101.jpg",
+      "6/P2_6_113.jpg"
+    ],
+    "labels": [
+      "6"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_006201",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_73b553afb750f2bd",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_000757",
+      "RAW_000768"
+    ],
+    "relative_paths": [
+      "0/P7_0_657.jpg",
+      "0/P7_0_668.jpg"
+    ],
+    "labels": [
+      "0"
+    ],
+    "participants": [
+      "P7"
+    ],
+    "representative_sample_id": "RAW_000757",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_7468e08db5eb63b7",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018526",
+      "RAW_018626"
+    ],
+    "relative_paths": [
+      "I/P5_I_426.jpg",
+      "I/P6_I_526.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018526",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_74bc085f7805a01b",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018524",
+      "RAW_018624"
+    ],
+    "relative_paths": [
+      "I/P5_I_424.jpg",
+      "I/P6_I_524.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018524",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_77a6613502c1399d",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031580",
+      "RAW_031680"
+    ],
+    "relative_paths": [
+      "V/P5_V_480.jpg",
+      "V/P6_V_580.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031580",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_7891fb81737aa693",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_008022",
+      "RAW_008023"
+    ],
+    "relative_paths": [
+      "8/P10_8_921.jpg",
+      "8/P10_8_922.jpg"
+    ],
+    "labels": [
+      "8"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_008022",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_78b0bab03c64e8e1",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_022253",
+      "RAW_022254"
+    ],
+    "relative_paths": [
+      "M/P2_M_153.jpg",
+      "M/P2_M_154.jpg"
+    ],
+    "labels": [
+      "M"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_022253",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_794d30691d9b80f0",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_010056",
+      "RAW_010057"
+    ],
+    "relative_paths": [
+      "A/P10_A_955.jpg",
+      "A/P10_A_956.jpg"
+    ],
+    "labels": [
+      "A"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_010056",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_79bc10d5f8ffef38",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031529",
+      "RAW_031629"
+    ],
+    "relative_paths": [
+      "V/P5_V_429.jpg",
+      "V/P6_V_529.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031529",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_7a000fc8e23ca801",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_014492",
+      "RAW_014493"
+    ],
+    "relative_paths": [
+      "E/P4_E_392.jpg",
+      "E/P4_E_393.jpg"
+    ],
+    "labels": [
+      "E"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_014492",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_7ab897607aa0dfe8",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_026048",
+      "RAW_026049",
+      "RAW_026050"
+    ],
+    "relative_paths": [
+      "Q/P10_Q_947.jpg",
+      "Q/P10_Q_948.jpg",
+      "Q/P10_Q_949.jpg"
+    ],
+    "labels": [
+      "Q"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_026048",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_7bf2314ba61723a2",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_032281",
+      "RAW_032282"
+    ],
+    "relative_paths": [
+      "W/P2_W_181.jpg",
+      "W/P2_W_182.jpg"
+    ],
+    "labels": [
+      "W"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_032281",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_7c55a21288c7b75e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_010960",
+      "RAW_010961",
+      "RAW_010962"
+    ],
+    "relative_paths": [
+      "A/P9_A_860.jpg",
+      "A/P9_A_861.jpg",
+      "A/P9_A_862.jpg"
+    ],
+    "labels": [
+      "A"
+    ],
+    "participants": [
+      "P9"
+    ],
+    "representative_sample_id": "RAW_010960",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8028427826a1f0d6",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031530",
+      "RAW_031630"
+    ],
+    "relative_paths": [
+      "V/P5_V_430.jpg",
+      "V/P6_V_530.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031530",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8029992eb2ee0296",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031056",
+      "RAW_031057",
+      "RAW_031059"
+    ],
+    "relative_paths": [
+      "V/P10_V_955.jpg",
+      "V/P10_V_956.jpg",
+      "V/P10_V_958.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_031056",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_808ae481f4e24633",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018546",
+      "RAW_018646"
+    ],
+    "relative_paths": [
+      "I/P5_I_446.jpg",
+      "I/P6_I_546.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018546",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_80a91af44a590115",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018568",
+      "RAW_018668"
+    ],
+    "relative_paths": [
+      "I/P5_I_468.jpg",
+      "I/P6_I_568.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018568",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8115f43a1522c3d7",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_025429",
+      "RAW_025430"
+    ],
+    "relative_paths": [
+      "P/P4_P_329.jpg",
+      "P/P4_P_330.jpg"
+    ],
+    "labels": [
+      "P"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_025429",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_815479357ec382d0",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_012580",
+      "RAW_012581"
+    ],
+    "relative_paths": [
+      "C/P5_C_480.jpg",
+      "C/P5_C_481.jpg"
+    ],
+    "labels": [
+      "C"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_012580",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_823119aab237acba",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_010028",
+      "RAW_010029"
+    ],
+    "relative_paths": [
+      "A/P10_A_927.jpg",
+      "A/P10_A_928.jpg"
+    ],
+    "labels": [
+      "A"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_010028",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_826ed48e84523bd8",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_003028",
+      "RAW_003029"
+    ],
+    "relative_paths": [
+      "3/P10_3_927.jpg",
+      "3/P10_3_928.jpg"
+    ],
+    "labels": [
+      "3"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_003028",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8278c23f30b4f37b",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031598",
+      "RAW_031698"
+    ],
+    "relative_paths": [
+      "V/P5_V_498.jpg",
+      "V/P6_V_598.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031598",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_83c3b3793648e70a",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_020960",
+      "RAW_020961"
+    ],
+    "relative_paths": [
+      "K/P9_K_860.jpg",
+      "K/P9_K_861.jpg"
+    ],
+    "labels": [
+      "K"
+    ],
+    "participants": [
+      "P9"
+    ],
+    "representative_sample_id": "RAW_020960",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_85e520e99f58f80b",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031560",
+      "RAW_031660"
+    ],
+    "relative_paths": [
+      "V/P5_V_460.jpg",
+      "V/P6_V_560.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031560",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_861803e2f765e1ff",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_028080",
+      "RAW_028091"
+    ],
+    "relative_paths": [
+      "S/P10_S_979.jpg",
+      "S/P10_S_990.jpg"
+    ],
+    "labels": [
+      "S"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_028080",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8751320bbdab8b30",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_007049",
+      "RAW_007050"
+    ],
+    "relative_paths": [
+      "7/P10_7_948.jpg",
+      "7/P10_7_949.jpg"
+    ],
+    "labels": [
+      "7"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_007049",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_888427d77a7d7500",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018584",
+      "RAW_018684"
+    ],
+    "relative_paths": [
+      "I/P5_I_484.jpg",
+      "I/P6_I_584.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018584",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_89b727b3877accaa",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_033273",
+      "RAW_033274",
+      "RAW_033275",
+      "RAW_033276",
+      "RAW_033277"
+    ],
+    "relative_paths": [
+      "X/P2_X_173.jpg",
+      "X/P2_X_174.jpg",
+      "X/P2_X_175.jpg",
+      "X/P2_X_176.jpg",
+      "X/P2_X_177.jpg"
+    ],
+    "labels": [
+      "X"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_033273",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8a52fc60790adfae",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018537",
+      "RAW_018637"
+    ],
+    "relative_paths": [
+      "I/P5_I_437.jpg",
+      "I/P6_I_537.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018537",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8a6648abf450c841",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018562",
+      "RAW_018662"
+    ],
+    "relative_paths": [
+      "I/P5_I_462.jpg",
+      "I/P6_I_562.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018562",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8ab98de4847bf690",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018517",
+      "RAW_018617"
+    ],
+    "relative_paths": [
+      "I/P5_I_417.jpg",
+      "I/P6_I_517.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018517",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8ad510c6e236c44b",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_002539",
+      "RAW_002540",
+      "RAW_002541"
+    ],
+    "relative_paths": [
+      "2/P5_2_439.jpg",
+      "2/P5_2_440.jpg",
+      "2/P5_2_441.jpg"
+    ],
+    "labels": [
+      "2"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_002539",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8bcda40da42a132b",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_012245",
+      "RAW_012247",
+      "RAW_012248"
+    ],
+    "relative_paths": [
+      "C/P2_C_145.jpg",
+      "C/P2_C_147.jpg",
+      "C/P2_C_148.jpg"
+    ],
+    "labels": [
+      "C"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_012245",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8d767ac640841fe4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_035424",
+      "RAW_035435"
+    ],
+    "relative_paths": [
+      "Z/P4_Z_324.jpg",
+      "Z/P4_Z_335.jpg"
+    ],
+    "labels": [
+      "Z"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_035424",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8e1d577e18c575bb",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031550",
+      "RAW_031650"
+    ],
+    "relative_paths": [
+      "V/P5_V_450.jpg",
+      "V/P6_V_550.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031550",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8e227352be7c9c91",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_030206",
+      "RAW_030207"
+    ],
+    "relative_paths": [
+      "U/P2_U_106.jpg",
+      "U/P2_U_107.jpg"
+    ],
+    "labels": [
+      "U"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_030206",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8ed5e19962768a56",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_024464",
+      "RAW_024465"
+    ],
+    "relative_paths": [
+      "O/P4_O_364.jpg",
+      "O/P4_O_365.jpg"
+    ],
+    "labels": [
+      "O"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_024464",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8f7502d2c0e8af9e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_027097",
+      "RAW_027098"
+    ],
+    "relative_paths": [
+      "R/P10_R_996.jpg",
+      "R/P10_R_997.jpg"
+    ],
+    "labels": [
+      "R"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_027097",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8fc7e969fa1bb3ad",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_034519",
+      "RAW_034520"
+    ],
+    "relative_paths": [
+      "Y/P5_Y_419.jpg",
+      "Y/P5_Y_420.jpg"
+    ],
+    "labels": [
+      "Y"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_034519",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_8ff01f7cc90938b0",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_021087",
+      "RAW_021088",
+      "RAW_021089",
+      "RAW_021090",
+      "RAW_021092"
+    ],
+    "relative_paths": [
+      "L/P10_L_986.jpg",
+      "L/P10_L_987.jpg",
+      "L/P10_L_988.jpg",
+      "L/P10_L_989.jpg",
+      "L/P10_L_991.jpg"
+    ],
+    "labels": [
+      "L"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_021087",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_91571854249c1902",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031586",
+      "RAW_031686"
+    ],
+    "relative_paths": [
+      "V/P5_V_486.jpg",
+      "V/P6_V_586.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031586",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9198a12cab4e404a",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_010439",
+      "RAW_010440"
+    ],
+    "relative_paths": [
+      "A/P4_A_339.jpg",
+      "A/P4_A_340.jpg"
+    ],
+    "labels": [
+      "A"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_010439",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_91efafa7fe17c030",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018570",
+      "RAW_018670"
+    ],
+    "relative_paths": [
+      "I/P5_I_470.jpg",
+      "I/P6_I_570.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018570",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_929bb459d10bb378",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031503",
+      "RAW_031603"
+    ],
+    "relative_paths": [
+      "V/P5_V_403.jpg",
+      "V/P6_V_503.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031503",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_92b05e0643f4509e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031541",
+      "RAW_031641"
+    ],
+    "relative_paths": [
+      "V/P5_V_441.jpg",
+      "V/P6_V_541.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031541",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_92b59d8356c5acdc",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_008540",
+      "RAW_008541"
+    ],
+    "relative_paths": [
+      "8/P5_8_440.jpg",
+      "8/P5_8_441.jpg"
+    ],
+    "labels": [
+      "8"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_008540",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_93166f4ba8a3a002",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031542",
+      "RAW_031642"
+    ],
+    "relative_paths": [
+      "V/P5_V_442.jpg",
+      "V/P6_V_542.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031542",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_933f0ace025e0a5d",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_020097",
+      "RAW_020098"
+    ],
+    "relative_paths": [
+      "K/P10_K_996.jpg",
+      "K/P10_K_997.jpg"
+    ],
+    "labels": [
+      "K"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_020097",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_936ed5092609b6df",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018502",
+      "RAW_018602"
+    ],
+    "relative_paths": [
+      "I/P5_I_402.jpg",
+      "I/P6_I_502.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018502",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_93866571e8e7b522",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_009255",
+      "RAW_009256",
+      "RAW_009258",
+      "RAW_009259",
+      "RAW_009260"
+    ],
+    "relative_paths": [
+      "9/P2_9_155.jpg",
+      "9/P2_9_156.jpg",
+      "9/P2_9_158.jpg",
+      "9/P2_9_159.jpg",
+      "9/P2_9_160.jpg"
+    ],
+    "labels": [
+      "9"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_009255",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_94d7042d0db0b686",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_010514",
+      "RAW_010515",
+      "RAW_010516"
+    ],
+    "relative_paths": [
+      "A/P5_A_414.jpg",
+      "A/P5_A_415.jpg",
+      "A/P5_A_416.jpg"
+    ],
+    "labels": [
+      "A"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_010514",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_960472b339fb7196",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_010437",
+      "RAW_010438"
+    ],
+    "relative_paths": [
+      "A/P4_A_337.jpg",
+      "A/P4_A_338.jpg"
+    ],
+    "labels": [
+      "A"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_010437",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_960c0edaa2d212ee",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018587",
+      "RAW_018687"
+    ],
+    "relative_paths": [
+      "I/P5_I_487.jpg",
+      "I/P6_I_587.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018587",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9621853f0e1b1869",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018543",
+      "RAW_018643"
+    ],
+    "relative_paths": [
+      "I/P5_I_443.jpg",
+      "I/P6_I_543.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018543",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_977604f9ebb7f837",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_009036",
+      "RAW_009047",
+      "RAW_009058"
+    ],
+    "relative_paths": [
+      "9/P10_9_935.jpg",
+      "9/P10_9_946.jpg",
+      "9/P10_9_957.jpg"
+    ],
+    "labels": [
+      "9"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_009036",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_98f683f312471abe",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018549",
+      "RAW_018649"
+    ],
+    "relative_paths": [
+      "I/P5_I_449.jpg",
+      "I/P6_I_549.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018549",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_99f256f36d617f80",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018597",
+      "RAW_018697"
+    ],
+    "relative_paths": [
+      "I/P5_I_497.jpg",
+      "I/P6_I_597.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018597",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9a42f9d6d1a18bda",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018539",
+      "RAW_018639"
+    ],
+    "relative_paths": [
+      "I/P5_I_439.jpg",
+      "I/P6_I_539.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018539",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9a8b41f87ea025f8",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018557",
+      "RAW_018657"
+    ],
+    "relative_paths": [
+      "I/P5_I_457.jpg",
+      "I/P6_I_557.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018557",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9ab5677d166dccd9",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_027554",
+      "RAW_027555"
+    ],
+    "relative_paths": [
+      "R/P5_R_454.jpg",
+      "R/P5_R_455.jpg"
+    ],
+    "labels": [
+      "R"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_027554",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9ac50bab7e45a427",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031504",
+      "RAW_031604"
+    ],
+    "relative_paths": [
+      "V/P5_V_404.jpg",
+      "V/P6_V_504.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031504",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9b599b9229f348d1",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031591",
+      "RAW_031691"
+    ],
+    "relative_paths": [
+      "V/P5_V_491.jpg",
+      "V/P6_V_591.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031591",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9b764eabcb359970",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018572",
+      "RAW_018672"
+    ],
+    "relative_paths": [
+      "I/P5_I_472.jpg",
+      "I/P6_I_572.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018572",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9c280d25d3f356d7",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_019062",
+      "RAW_019063"
+    ],
+    "relative_paths": [
+      "J/P10_J_961.jpg",
+      "J/P10_J_962.jpg"
+    ],
+    "labels": [
+      "J"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_019062",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9caabe36672e1c56",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_010931",
+      "RAW_010932"
+    ],
+    "relative_paths": [
+      "A/P9_A_831.jpg",
+      "A/P9_A_832.jpg"
+    ],
+    "labels": [
+      "A"
+    ],
+    "participants": [
+      "P9"
+    ],
+    "representative_sample_id": "RAW_010931",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9ce3b79b446f1e3b",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018558",
+      "RAW_018658"
+    ],
+    "relative_paths": [
+      "I/P5_I_458.jpg",
+      "I/P6_I_558.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018558",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9cf7522d1441c4c6",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031594",
+      "RAW_031694"
+    ],
+    "relative_paths": [
+      "V/P5_V_494.jpg",
+      "V/P6_V_594.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031594",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9d11a7e11d7e5d70",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_004054",
+      "RAW_004055"
+    ],
+    "relative_paths": [
+      "4/P10_4_953.jpg",
+      "4/P10_4_954.jpg"
+    ],
+    "labels": [
+      "4"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_004054",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9d5dd2e855beaafd",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018532",
+      "RAW_018632"
+    ],
+    "relative_paths": [
+      "I/P5_I_432.jpg",
+      "I/P6_I_532.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018532",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9e2a3c0af7875ebf",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031512",
+      "RAW_031612"
+    ],
+    "relative_paths": [
+      "V/P5_V_412.jpg",
+      "V/P6_V_512.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031512",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9e7a01788b8d718d",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_000221",
+      "RAW_000222"
+    ],
+    "relative_paths": [
+      "0/P2_0_121.jpg",
+      "0/P2_0_122.jpg"
+    ],
+    "labels": [
+      "0"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_000221",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9ef14d70729399d1",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018538",
+      "RAW_018638"
+    ],
+    "relative_paths": [
+      "I/P5_I_438.jpg",
+      "I/P6_I_538.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018538",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_9ff4ef73f7d9d8b2",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031556",
+      "RAW_031656"
+    ],
+    "relative_paths": [
+      "V/P5_V_456.jpg",
+      "V/P6_V_556.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031556",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a0ed2f55e9da5a12",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018267",
+      "RAW_018269"
+    ],
+    "relative_paths": [
+      "I/P2_I_167.jpg",
+      "I/P2_I_169.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_018267",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a1c82a64846e624a",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_021278",
+      "RAW_021280"
+    ],
+    "relative_paths": [
+      "L/P2_L_178.jpg",
+      "L/P2_L_180.jpg"
+    ],
+    "labels": [
+      "L"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_021278",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a1f6f95ee46d100a",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_026275",
+      "RAW_026276"
+    ],
+    "relative_paths": [
+      "Q/P2_Q_175.jpg",
+      "Q/P2_Q_176.jpg"
+    ],
+    "labels": [
+      "Q"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_026275",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a2e888927c58ff49",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018592",
+      "RAW_018692"
+    ],
+    "relative_paths": [
+      "I/P5_I_492.jpg",
+      "I/P6_I_592.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018592",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a3a75dd5fbf0c95a",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031515",
+      "RAW_031615"
+    ],
+    "relative_paths": [
+      "V/P5_V_415.jpg",
+      "V/P6_V_515.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031515",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a44357cadfa9f685",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031593",
+      "RAW_031693"
+    ],
+    "relative_paths": [
+      "V/P5_V_493.jpg",
+      "V/P6_V_593.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031593",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a46fd09922629d68",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018563",
+      "RAW_018663"
+    ],
+    "relative_paths": [
+      "I/P5_I_463.jpg",
+      "I/P6_I_563.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018563",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a4a853933edc1774",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031576",
+      "RAW_031676"
+    ],
+    "relative_paths": [
+      "V/P5_V_476.jpg",
+      "V/P6_V_576.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031576",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a4eaeedb9b1cb983",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018553",
+      "RAW_018653"
+    ],
+    "relative_paths": [
+      "I/P5_I_453.jpg",
+      "I/P6_I_553.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018553",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a53150cad855a6b0",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_001261",
+      "RAW_001262",
+      "RAW_001263"
+    ],
+    "relative_paths": [
+      "1/P2_1_161.jpg",
+      "1/P2_1_162.jpg",
+      "1/P2_1_163.jpg"
+    ],
+    "labels": [
+      "1"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_001261",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a55a9af68663a96c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018503",
+      "RAW_018603"
+    ],
+    "relative_paths": [
+      "I/P5_I_403.jpg",
+      "I/P6_I_503.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018503",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a69e985c02fb387d",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031507",
+      "RAW_031607"
+    ],
+    "relative_paths": [
+      "V/P5_V_407.jpg",
+      "V/P6_V_507.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031507",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a746ff396f64e48a",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031076",
+      "RAW_031077"
+    ],
+    "relative_paths": [
+      "V/P10_V_975.jpg",
+      "V/P10_V_976.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_031076",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a7538998ec99f756",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018504",
+      "RAW_018604"
+    ],
+    "relative_paths": [
+      "I/P5_I_404.jpg",
+      "I/P6_I_504.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018504",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a7eb7752c0586339",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_022425",
+      "RAW_022426"
+    ],
+    "relative_paths": [
+      "M/P4_M_325.jpg",
+      "M/P4_M_326.jpg"
+    ],
+    "labels": [
+      "M"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_022425",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a831917ff507d840",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_014262",
+      "RAW_014263"
+    ],
+    "relative_paths": [
+      "E/P2_E_162.jpg",
+      "E/P2_E_163.jpg"
+    ],
+    "labels": [
+      "E"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_014262",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a83ca7c13c6aeeda",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031534",
+      "RAW_031634"
+    ],
+    "relative_paths": [
+      "V/P5_V_434.jpg",
+      "V/P6_V_534.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031534",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a8f43aa2df0d0a8f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_034279",
+      "RAW_034290"
+    ],
+    "relative_paths": [
+      "Y/P2_Y_179.jpg",
+      "Y/P2_Y_190.jpg"
+    ],
+    "labels": [
+      "Y"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_034279",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a91799d9f68ec9e4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018586",
+      "RAW_018686"
+    ],
+    "relative_paths": [
+      "I/P5_I_486.jpg",
+      "I/P6_I_586.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018586",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a927ec6e5c1aed53",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031575",
+      "RAW_031675"
+    ],
+    "relative_paths": [
+      "V/P5_V_475.jpg",
+      "V/P6_V_575.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031575",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a972e9547e362944",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_002603",
+      "RAW_002696",
+      "RAW_002700"
+    ],
+    "relative_paths": [
+      "2/P6_2_503.jpg",
+      "2/P6_2_596.jpg",
+      "2/P6_2_600.jpg"
+    ],
+    "labels": [
+      "2"
+    ],
+    "participants": [
+      "P6"
+    ],
+    "representative_sample_id": "RAW_002603",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a979a341254ea9a4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_004095",
+      "RAW_004096"
+    ],
+    "relative_paths": [
+      "4/P10_4_994.jpg",
+      "4/P10_4_995.jpg"
+    ],
+    "labels": [
+      "4"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_004095",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_a9ef6e6919b88015",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_032008",
+      "RAW_032009",
+      "RAW_032010"
+    ],
+    "relative_paths": [
+      "W/P10_W_907.jpg",
+      "W/P10_W_908.jpg",
+      "W/P10_W_909.jpg"
+    ],
+    "labels": [
+      "W"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_032008",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_aaa6aba0f38fb331",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031521",
+      "RAW_031621"
+    ],
+    "relative_paths": [
+      "V/P5_V_421.jpg",
+      "V/P6_V_521.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031521",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_aaf803f7a18dd740",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031567",
+      "RAW_031667"
+    ],
+    "relative_paths": [
+      "V/P5_V_467.jpg",
+      "V/P6_V_567.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031567",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ac2778dfba768728",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_019423",
+      "RAW_019425"
+    ],
+    "relative_paths": [
+      "J/P4_J_323.jpg",
+      "J/P4_J_325.jpg"
+    ],
+    "labels": [
+      "J"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_019423",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ac29e05d89e42d61",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_009771",
+      "RAW_009772"
+    ],
+    "relative_paths": [
+      "9/P7_9_671.jpg",
+      "9/P7_9_672.jpg"
+    ],
+    "labels": [
+      "9"
+    ],
+    "participants": [
+      "P7"
+    ],
+    "representative_sample_id": "RAW_009771",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ac50037dd2a5a137",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018512",
+      "RAW_018612"
+    ],
+    "relative_paths": [
+      "I/P5_I_412.jpg",
+      "I/P6_I_512.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018512",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ace22debb74b5968",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_009011",
+      "RAW_009012",
+      "RAW_009013"
+    ],
+    "relative_paths": [
+      "9/P10_9_910.jpg",
+      "9/P10_9_911.jpg",
+      "9/P10_9_912.jpg"
+    ],
+    "labels": [
+      "9"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_009011",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ad889935579d890f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031517",
+      "RAW_031617"
+    ],
+    "relative_paths": [
+      "V/P5_V_417.jpg",
+      "V/P6_V_517.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031517",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ae334b46635b0577",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_012525",
+      "RAW_012526",
+      "RAW_012527",
+      "RAW_012528"
+    ],
+    "relative_paths": [
+      "C/P5_C_425.jpg",
+      "C/P5_C_426.jpg",
+      "C/P5_C_427.jpg",
+      "C/P5_C_428.jpg"
+    ],
+    "labels": [
+      "C"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_012525",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ae8b262275656bdc",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_016495",
+      "RAW_016496",
+      "RAW_016497",
+      "RAW_016498",
+      "RAW_016499"
+    ],
+    "relative_paths": [
+      "G/P4_G_395.jpg",
+      "G/P4_G_396.jpg",
+      "G/P4_G_397.jpg",
+      "G/P4_G_398.jpg",
+      "G/P4_G_399.jpg"
+    ],
+    "labels": [
+      "G"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_016495",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_aeb32e94e5a28611",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_006010",
+      "RAW_006011"
+    ],
+    "relative_paths": [
+      "6/P10_6_909.jpg",
+      "6/P10_6_910.jpg"
+    ],
+    "labels": [
+      "6"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_006010",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_af2375d7841c3b4c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018515",
+      "RAW_018615"
+    ],
+    "relative_paths": [
+      "I/P5_I_415.jpg",
+      "I/P6_I_515.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018515",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_b12d16f4bc13e35f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031585",
+      "RAW_031685"
+    ],
+    "relative_paths": [
+      "V/P5_V_485.jpg",
+      "V/P6_V_585.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031585",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_b1617af655d2dd43",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031535",
+      "RAW_031635"
+    ],
+    "relative_paths": [
+      "V/P5_V_435.jpg",
+      "V/P6_V_535.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031535",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_b380b1e673b7d360",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018547",
+      "RAW_018647"
+    ],
+    "relative_paths": [
+      "I/P5_I_447.jpg",
+      "I/P6_I_547.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018547",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_b40379f0f8f42cb7",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018594",
+      "RAW_018694"
+    ],
+    "relative_paths": [
+      "I/P5_I_494.jpg",
+      "I/P6_I_594.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018594",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_b51ff0954f00749c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031558",
+      "RAW_031658"
+    ],
+    "relative_paths": [
+      "V/P5_V_458.jpg",
+      "V/P6_V_558.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031558",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_b5f6f6118748df6a",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018518",
+      "RAW_018618"
+    ],
+    "relative_paths": [
+      "I/P5_I_418.jpg",
+      "I/P6_I_518.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018518",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_b70c361404d402c4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_020740",
+      "RAW_020741"
+    ],
+    "relative_paths": [
+      "K/P7_K_640.jpg",
+      "K/P7_K_641.jpg"
+    ],
+    "labels": [
+      "K"
+    ],
+    "participants": [
+      "P7"
+    ],
+    "representative_sample_id": "RAW_020740",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_b73361167451a1a6",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_023071",
+      "RAW_023072"
+    ],
+    "relative_paths": [
+      "N/P10_N_970.jpg",
+      "N/P10_N_971.jpg"
+    ],
+    "labels": [
+      "N"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_023071",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_b783d5ed0e9a16f5",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_005221",
+      "RAW_005222"
+    ],
+    "relative_paths": [
+      "5/P2_5_121.jpg",
+      "5/P2_5_122.jpg"
+    ],
+    "labels": [
+      "5"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_005221",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_b864d3e5b9b3d037",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_004208",
+      "RAW_004209"
+    ],
+    "relative_paths": [
+      "4/P2_4_108.jpg",
+      "4/P2_4_109.jpg"
+    ],
+    "labels": [
+      "4"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_004208",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_b8c91a640c1f169c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_023067",
+      "RAW_023068"
+    ],
+    "relative_paths": [
+      "N/P10_N_966.jpg",
+      "N/P10_N_967.jpg"
+    ],
+    "labels": [
+      "N"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_023067",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_bae69b880e0436f4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_020015",
+      "RAW_020016"
+    ],
+    "relative_paths": [
+      "K/P10_K_914.jpg",
+      "K/P10_K_915.jpg"
+    ],
+    "labels": [
+      "K"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_020015",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_bb81c8ec058305c4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031537",
+      "RAW_031637"
+    ],
+    "relative_paths": [
+      "V/P5_V_437.jpg",
+      "V/P6_V_537.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031537",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_bc00b1702932a14c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031566",
+      "RAW_031666"
+    ],
+    "relative_paths": [
+      "V/P5_V_466.jpg",
+      "V/P6_V_566.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031566",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_bca8693c501155dc",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018510",
+      "RAW_018610"
+    ],
+    "relative_paths": [
+      "I/P5_I_410.jpg",
+      "I/P6_I_510.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018510",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_be4c5f9a5dd1d0fc",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_023445",
+      "RAW_023447",
+      "RAW_023448"
+    ],
+    "relative_paths": [
+      "N/P4_N_345.jpg",
+      "N/P4_N_347.jpg",
+      "N/P4_N_348.jpg"
+    ],
+    "labels": [
+      "N"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_023445",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_be7beb307e792047",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031511",
+      "RAW_031611"
+    ],
+    "relative_paths": [
+      "V/P5_V_411.jpg",
+      "V/P6_V_511.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031511",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_bed89769ae3c5abf",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031532",
+      "RAW_031632"
+    ],
+    "relative_paths": [
+      "V/P5_V_432.jpg",
+      "V/P6_V_532.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031532",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_bf9ec92a25201824",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031510",
+      "RAW_031610"
+    ],
+    "relative_paths": [
+      "V/P5_V_410.jpg",
+      "V/P6_V_510.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031510",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c2302fac56078a03",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031545",
+      "RAW_031645"
+    ],
+    "relative_paths": [
+      "V/P5_V_445.jpg",
+      "V/P6_V_545.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031545",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c2bd229c1fbb35db",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018598",
+      "RAW_018698"
+    ],
+    "relative_paths": [
+      "I/P5_I_498.jpg",
+      "I/P6_I_598.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018598",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c2ca8e6f8a9394aa",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_026205",
+      "RAW_026206"
+    ],
+    "relative_paths": [
+      "Q/P2_Q_105.jpg",
+      "Q/P2_Q_106.jpg"
+    ],
+    "labels": [
+      "Q"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_026205",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c2fd4d76b6300b64",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_033278",
+      "RAW_033280",
+      "RAW_033281",
+      "RAW_033282"
+    ],
+    "relative_paths": [
+      "X/P2_X_178.jpg",
+      "X/P2_X_180.jpg",
+      "X/P2_X_181.jpg",
+      "X/P2_X_182.jpg"
+    ],
+    "labels": [
+      "X"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_033278",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c3eb02c591d2146a",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018544",
+      "RAW_018644"
+    ],
+    "relative_paths": [
+      "I/P5_I_444.jpg",
+      "I/P6_I_544.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018544",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c413ba19fa466201",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031526",
+      "RAW_031626"
+    ],
+    "relative_paths": [
+      "V/P5_V_426.jpg",
+      "V/P6_V_526.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031526",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c4bd59b0d79ae821",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018548",
+      "RAW_018648"
+    ],
+    "relative_paths": [
+      "I/P5_I_448.jpg",
+      "I/P6_I_548.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018548",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c4c4f6952601049e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_027234",
+      "RAW_027236"
+    ],
+    "relative_paths": [
+      "R/P2_R_134.jpg",
+      "R/P2_R_136.jpg"
+    ],
+    "labels": [
+      "R"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_027234",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c52bde4029fa8035",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018593",
+      "RAW_018693"
+    ],
+    "relative_paths": [
+      "I/P5_I_493.jpg",
+      "I/P6_I_593.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018593",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c5432f5019e6da2e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031502",
+      "RAW_031602"
+    ],
+    "relative_paths": [
+      "V/P5_V_402.jpg",
+      "V/P6_V_502.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031502",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c5547fd48ee48e5d",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_013283",
+      "RAW_013284"
+    ],
+    "relative_paths": [
+      "D/P2_D_183.jpg",
+      "D/P2_D_184.jpg"
+    ],
+    "labels": [
+      "D"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_013283",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c574be1e575c8f80",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031528",
+      "RAW_031628"
+    ],
+    "relative_paths": [
+      "V/P5_V_428.jpg",
+      "V/P6_V_528.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031528",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c68acc790e7fdd5c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_027538",
+      "RAW_027539",
+      "RAW_027540",
+      "RAW_027541",
+      "RAW_027542",
+      "RAW_027543",
+      "RAW_027544"
+    ],
+    "relative_paths": [
+      "R/P5_R_438.jpg",
+      "R/P5_R_439.jpg",
+      "R/P5_R_440.jpg",
+      "R/P5_R_441.jpg",
+      "R/P5_R_442.jpg",
+      "R/P5_R_443.jpg",
+      "R/P5_R_444.jpg"
+    ],
+    "labels": [
+      "R"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_027538",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c6a3ccbd5f65a7ca",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_021711",
+      "RAW_021712"
+    ],
+    "relative_paths": [
+      "L/P7_L_611.jpg",
+      "L/P7_L_612.jpg"
+    ],
+    "labels": [
+      "L"
+    ],
+    "participants": [
+      "P7"
+    ],
+    "representative_sample_id": "RAW_021711",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c766fdc67094f5fd",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_021491",
+      "RAW_021492"
+    ],
+    "relative_paths": [
+      "L/P4_L_391.jpg",
+      "L/P4_L_392.jpg"
+    ],
+    "labels": [
+      "L"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_021491",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c7a75c5d3491fd19",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018565",
+      "RAW_018665"
+    ],
+    "relative_paths": [
+      "I/P5_I_465.jpg",
+      "I/P6_I_565.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018565",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c7dd8173587c42e2",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_029082",
+      "RAW_029083"
+    ],
+    "relative_paths": [
+      "T/P10_T_981.jpg",
+      "T/P10_T_982.jpg"
+    ],
+    "labels": [
+      "T"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_029082",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c83b76da6a4ca38f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018519",
+      "RAW_018619"
+    ],
+    "relative_paths": [
+      "I/P5_I_419.jpg",
+      "I/P6_I_519.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018519",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c8ae71a2d6e06906",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031600",
+      "RAW_031700"
+    ],
+    "relative_paths": [
+      "V/P5_V_500.jpg",
+      "V/P6_V_600.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031600",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c8ec9f141da1f842",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_022438",
+      "RAW_022439"
+    ],
+    "relative_paths": [
+      "M/P4_M_338.jpg",
+      "M/P4_M_339.jpg"
+    ],
+    "labels": [
+      "M"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_022438",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c91a430b9adc8f36",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_006245",
+      "RAW_006247"
+    ],
+    "relative_paths": [
+      "6/P2_6_145.jpg",
+      "6/P2_6_147.jpg"
+    ],
+    "labels": [
+      "6"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_006245",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c999a9b199921f88",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018583",
+      "RAW_018683"
+    ],
+    "relative_paths": [
+      "I/P5_I_483.jpg",
+      "I/P6_I_583.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018583",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c9aa3702a24f2a0c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_014022",
+      "RAW_014023"
+    ],
+    "relative_paths": [
+      "E/P10_E_921.jpg",
+      "E/P10_E_922.jpg"
+    ],
+    "labels": [
+      "E"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_014022",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_c9ebedbd1c4a9bad",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_027273",
+      "RAW_027274",
+      "RAW_027275"
+    ],
+    "relative_paths": [
+      "R/P2_R_173.jpg",
+      "R/P2_R_174.jpg",
+      "R/P2_R_175.jpg"
+    ],
+    "labels": [
+      "R"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_027273",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ca8520c242a9e250",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_016407",
+      "RAW_016408"
+    ],
+    "relative_paths": [
+      "G/P4_G_307.jpg",
+      "G/P4_G_308.jpg"
+    ],
+    "labels": [
+      "G"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_016407",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_caf33342e3410108",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_017045",
+      "RAW_017046"
+    ],
+    "relative_paths": [
+      "H/P10_H_944.jpg",
+      "H/P10_H_945.jpg"
+    ],
+    "labels": [
+      "H"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_017045",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_cb283f6c09c3e5f2",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_012472",
+      "RAW_012473"
+    ],
+    "relative_paths": [
+      "C/P4_C_372.jpg",
+      "C/P4_C_373.jpg"
+    ],
+    "labels": [
+      "C"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_012472",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ccccbf31bc89747c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_013088",
+      "RAW_013089"
+    ],
+    "relative_paths": [
+      "D/P10_D_987.jpg",
+      "D/P10_D_988.jpg"
+    ],
+    "labels": [
+      "D"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_013088",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ccee579be8332b38",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_005255",
+      "RAW_005256",
+      "RAW_005258",
+      "RAW_005259",
+      "RAW_005260"
+    ],
+    "relative_paths": [
+      "5/P2_5_155.jpg",
+      "5/P2_5_156.jpg",
+      "5/P2_5_158.jpg",
+      "5/P2_5_159.jpg",
+      "5/P2_5_160.jpg"
+    ],
+    "labels": [
+      "5"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_005255",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_cd1c0c34998574f0",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_025014",
+      "RAW_025025"
+    ],
+    "relative_paths": [
+      "P/P10_P_913.jpg",
+      "P/P10_P_924.jpg"
+    ],
+    "labels": [
+      "P"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_025014",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_cdfa7534d76d2869",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031588",
+      "RAW_031688"
+    ],
+    "relative_paths": [
+      "V/P5_V_488.jpg",
+      "V/P6_V_588.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031588",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ce2349ab3f2b9a14",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_014036",
+      "RAW_014047"
+    ],
+    "relative_paths": [
+      "E/P10_E_935.jpg",
+      "E/P10_E_946.jpg"
+    ],
+    "labels": [
+      "E"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_014036",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ceae50b0ee76bf7e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_008228",
+      "RAW_008229"
+    ],
+    "relative_paths": [
+      "8/P2_8_128.jpg",
+      "8/P2_8_129.jpg"
+    ],
+    "labels": [
+      "8"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_008228",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_cf00f8f26ce106a7",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_020984",
+      "RAW_020985"
+    ],
+    "relative_paths": [
+      "K/P9_K_884.jpg",
+      "K/P9_K_885.jpg"
+    ],
+    "labels": [
+      "K"
+    ],
+    "participants": [
+      "P9"
+    ],
+    "representative_sample_id": "RAW_020984",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_cf12cab580025365",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031597",
+      "RAW_031697"
+    ],
+    "relative_paths": [
+      "V/P5_V_497.jpg",
+      "V/P6_V_597.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031597",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_d17ec541b4d791a8",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_034034",
+      "RAW_034035"
+    ],
+    "relative_paths": [
+      "Y/P10_Y_933.jpg",
+      "Y/P10_Y_934.jpg"
+    ],
+    "labels": [
+      "Y"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_034034",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_d1d8ff4694a878f9",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018552",
+      "RAW_018652"
+    ],
+    "relative_paths": [
+      "I/P5_I_452.jpg",
+      "I/P6_I_552.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018552",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_d32bdb5a35b5474a",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_028227",
+      "RAW_028228"
+    ],
+    "relative_paths": [
+      "S/P2_S_127.jpg",
+      "S/P2_S_128.jpg"
+    ],
+    "labels": [
+      "S"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_028227",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_d39cd9dba283c531",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031581",
+      "RAW_031681"
+    ],
+    "relative_paths": [
+      "V/P5_V_481.jpg",
+      "V/P6_V_581.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031581",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_d3fe8c9e63b2362d",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031016",
+      "RAW_031017"
+    ],
+    "relative_paths": [
+      "V/P10_V_915.jpg",
+      "V/P10_V_916.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_031016",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_d546b1f1d265ab25",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_023774",
+      "RAW_023775",
+      "RAW_023776",
+      "RAW_023777",
+      "RAW_023778"
+    ],
+    "relative_paths": [
+      "N/P7_N_674.jpg",
+      "N/P7_N_675.jpg",
+      "N/P7_N_676.jpg",
+      "N/P7_N_677.jpg",
+      "N/P7_N_678.jpg"
+    ],
+    "labels": [
+      "N"
+    ],
+    "participants": [
+      "P7"
+    ],
+    "representative_sample_id": "RAW_023774",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_d6033adcb10d720c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018556",
+      "RAW_018656"
+    ],
+    "relative_paths": [
+      "I/P5_I_456.jpg",
+      "I/P6_I_556.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018556",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_d750024ad142ace5",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018551",
+      "RAW_018651"
+    ],
+    "relative_paths": [
+      "I/P5_I_451.jpg",
+      "I/P6_I_551.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018551",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_d76dc66b76aab893",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_023056",
+      "RAW_023057"
+    ],
+    "relative_paths": [
+      "N/P10_N_955.jpg",
+      "N/P10_N_956.jpg"
+    ],
+    "labels": [
+      "N"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_023056",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_dbce7e6c0e72b6d4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_027904",
+      "RAW_027905"
+    ],
+    "relative_paths": [
+      "R/P9_R_804.jpg",
+      "R/P9_R_805.jpg"
+    ],
+    "labels": [
+      "R"
+    ],
+    "participants": [
+      "P9"
+    ],
+    "representative_sample_id": "RAW_027904",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ddb209de1d3cacf7",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018516",
+      "RAW_018616"
+    ],
+    "relative_paths": [
+      "I/P5_I_416.jpg",
+      "I/P6_I_516.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018516",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_de3c2cfd9a14b27f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018507",
+      "RAW_018607"
+    ],
+    "relative_paths": [
+      "I/P5_I_407.jpg",
+      "I/P6_I_507.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018507",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_de5387f2c154f826",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_005214",
+      "RAW_005215",
+      "RAW_005216",
+      "RAW_005217",
+      "RAW_005218",
+      "RAW_005219"
+    ],
+    "relative_paths": [
+      "5/P2_5_114.jpg",
+      "5/P2_5_115.jpg",
+      "5/P2_5_116.jpg",
+      "5/P2_5_117.jpg",
+      "5/P2_5_118.jpg",
+      "5/P2_5_119.jpg"
+    ],
+    "labels": [
+      "5"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_005214",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_de84803b1e976c83",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031574",
+      "RAW_031674"
+    ],
+    "relative_paths": [
+      "V/P5_V_474.jpg",
+      "V/P6_V_574.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031574",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_dee6691187c3680f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_023415",
+      "RAW_023416",
+      "RAW_023417",
+      "RAW_023418"
+    ],
+    "relative_paths": [
+      "N/P4_N_315.jpg",
+      "N/P4_N_316.jpg",
+      "N/P4_N_317.jpg",
+      "N/P4_N_318.jpg"
+    ],
+    "labels": [
+      "N"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_023415",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_dfd4b091480fa9e6",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031557",
+      "RAW_031657"
+    ],
+    "relative_paths": [
+      "V/P5_V_457.jpg",
+      "V/P6_V_557.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031557",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e0781d9c9ead8462",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_027547",
+      "RAW_027548"
+    ],
+    "relative_paths": [
+      "R/P5_R_447.jpg",
+      "R/P5_R_448.jpg"
+    ],
+    "labels": [
+      "R"
+    ],
+    "participants": [
+      "P5"
+    ],
+    "representative_sample_id": "RAW_027547",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e0f441e7b04a873f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_017264",
+      "RAW_017265",
+      "RAW_017266"
+    ],
+    "relative_paths": [
+      "H/P2_H_164.jpg",
+      "H/P2_H_165.jpg",
+      "H/P2_H_166.jpg"
+    ],
+    "labels": [
+      "H"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_017264",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e12bea56a3d31ee3",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_014211",
+      "RAW_014212"
+    ],
+    "relative_paths": [
+      "E/P2_E_111.jpg",
+      "E/P2_E_112.jpg"
+    ],
+    "labels": [
+      "E"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_014211",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e13a3751666bbbbd",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018579",
+      "RAW_018679"
+    ],
+    "relative_paths": [
+      "I/P5_I_479.jpg",
+      "I/P6_I_579.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018579",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e19958bfe3e3d238",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031525",
+      "RAW_031625"
+    ],
+    "relative_paths": [
+      "V/P5_V_425.jpg",
+      "V/P6_V_525.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031525",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e1dd7eba6d56b791",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_032099",
+      "RAW_032100"
+    ],
+    "relative_paths": [
+      "W/P10_W_998.jpg",
+      "W/P10_W_999.jpg"
+    ],
+    "labels": [
+      "W"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_032099",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e224fcd59bce807c",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031533",
+      "RAW_031633"
+    ],
+    "relative_paths": [
+      "V/P5_V_433.jpg",
+      "V/P6_V_533.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031533",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e26b29bedaed018f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_001291",
+      "RAW_001292"
+    ],
+    "relative_paths": [
+      "1/P2_1_191.jpg",
+      "1/P2_1_192.jpg"
+    ],
+    "labels": [
+      "1"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_001291",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e299b7232b2644b7",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031570",
+      "RAW_031670"
+    ],
+    "relative_paths": [
+      "V/P5_V_470.jpg",
+      "V/P6_V_570.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031570",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e3214b7d3634fa4a",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_020293",
+      "RAW_020294"
+    ],
+    "relative_paths": [
+      "K/P2_K_193.jpg",
+      "K/P2_K_194.jpg"
+    ],
+    "labels": [
+      "K"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_020293",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e32cef213b264e10",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018506",
+      "RAW_018606"
+    ],
+    "relative_paths": [
+      "I/P5_I_406.jpg",
+      "I/P6_I_506.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018506",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e348690be8e719a5",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018576",
+      "RAW_018676"
+    ],
+    "relative_paths": [
+      "I/P5_I_476.jpg",
+      "I/P6_I_576.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018576",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e4226899a91d30c5",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031546",
+      "RAW_031646"
+    ],
+    "relative_paths": [
+      "V/P5_V_446.jpg",
+      "V/P6_V_546.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031546",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e489b19917c0bf84",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031501",
+      "RAW_031601"
+    ],
+    "relative_paths": [
+      "V/P5_V_401.jpg",
+      "V/P6_V_501.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031501",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e52c99402dfc3de5",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031595",
+      "RAW_031695"
+    ],
+    "relative_paths": [
+      "V/P5_V_495.jpg",
+      "V/P6_V_595.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031595",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e5310aa141bdd8a8",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_024497",
+      "RAW_024498"
+    ],
+    "relative_paths": [
+      "O/P4_O_397.jpg",
+      "O/P4_O_398.jpg"
+    ],
+    "labels": [
+      "O"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_024497",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e6f7053e92ce404e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018530",
+      "RAW_018630"
+    ],
+    "relative_paths": [
+      "I/P5_I_430.jpg",
+      "I/P6_I_530.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018530",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e76651fa26f1ed32",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018528",
+      "RAW_018529",
+      "RAW_018628",
+      "RAW_018629"
+    ],
+    "relative_paths": [
+      "I/P5_I_428.jpg",
+      "I/P5_I_429.jpg",
+      "I/P6_I_528.jpg",
+      "I/P6_I_529.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018528",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e7c04f34081b27f4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_026093",
+      "RAW_026094"
+    ],
+    "relative_paths": [
+      "Q/P10_Q_992.jpg",
+      "Q/P10_Q_993.jpg"
+    ],
+    "labels": [
+      "Q"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_026093",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e84cb99cee74835e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031554",
+      "RAW_031654"
+    ],
+    "relative_paths": [
+      "V/P5_V_454.jpg",
+      "V/P6_V_554.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031554",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e964bd1e5ef99f87",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031519",
+      "RAW_031619"
+    ],
+    "relative_paths": [
+      "V/P5_V_419.jpg",
+      "V/P6_V_519.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031519",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e9c0ad3c9552227f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031505",
+      "RAW_031605"
+    ],
+    "relative_paths": [
+      "V/P5_V_405.jpg",
+      "V/P6_V_505.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031505",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_e9cebe2fccef6043",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_025292",
+      "RAW_025293"
+    ],
+    "relative_paths": [
+      "P/P2_P_192.jpg",
+      "P/P2_P_193.jpg"
+    ],
+    "labels": [
+      "P"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_025292",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ebb355d2938f0079",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018591",
+      "RAW_018691"
+    ],
+    "relative_paths": [
+      "I/P5_I_491.jpg",
+      "I/P6_I_591.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018591",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ebc92b3f7a535791",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_012955",
+      "RAW_012956"
+    ],
+    "relative_paths": [
+      "C/P9_C_855.jpg",
+      "C/P9_C_856.jpg"
+    ],
+    "labels": [
+      "C"
+    ],
+    "participants": [
+      "P9"
+    ],
+    "representative_sample_id": "RAW_012955",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ec94f6a286c38a4e",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_030075",
+      "RAW_030076"
+    ],
+    "relative_paths": [
+      "U/P10_U_974.jpg",
+      "U/P10_U_975.jpg"
+    ],
+    "labels": [
+      "U"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_030075",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ecd7fb9d9bcc4354",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_005984",
+      "RAW_005985"
+    ],
+    "relative_paths": [
+      "5/P9_5_884.jpg",
+      "5/P9_5_885.jpg"
+    ],
+    "labels": [
+      "5"
+    ],
+    "participants": [
+      "P9"
+    ],
+    "representative_sample_id": "RAW_005984",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ecfcf454f21ad6bb",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_010973",
+      "RAW_010974"
+    ],
+    "relative_paths": [
+      "A/P9_A_873.jpg",
+      "A/P9_A_874.jpg"
+    ],
+    "labels": [
+      "A"
+    ],
+    "participants": [
+      "P9"
+    ],
+    "representative_sample_id": "RAW_010973",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ed29cecaf6c46c87",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_033058",
+      "RAW_033069",
+      "RAW_033080"
+    ],
+    "relative_paths": [
+      "X/P10_X_957.jpg",
+      "X/P10_X_968.jpg",
+      "X/P10_X_979.jpg"
+    ],
+    "labels": [
+      "X"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_033058",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_edbbae9babfd4df8",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_016488",
+      "RAW_016489",
+      "RAW_016491",
+      "RAW_016492"
+    ],
+    "relative_paths": [
+      "G/P4_G_388.jpg",
+      "G/P4_G_389.jpg",
+      "G/P4_G_391.jpg",
+      "G/P4_G_392.jpg"
+    ],
+    "labels": [
+      "G"
+    ],
+    "participants": [
+      "P4"
+    ],
+    "representative_sample_id": "RAW_016488",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_edd009e1f509dd27",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018588",
+      "RAW_018688"
+    ],
+    "relative_paths": [
+      "I/P5_I_488.jpg",
+      "I/P6_I_588.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018588",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ee3abdee55936922",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_016730",
+      "RAW_016731"
+    ],
+    "relative_paths": [
+      "G/P7_G_630.jpg",
+      "G/P7_G_631.jpg"
+    ],
+    "labels": [
+      "G"
+    ],
+    "participants": [
+      "P7"
+    ],
+    "representative_sample_id": "RAW_016730",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f08728038abc8e4b",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031563",
+      "RAW_031663"
+    ],
+    "relative_paths": [
+      "V/P5_V_463.jpg",
+      "V/P6_V_563.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031563",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f104aaf40163bd32",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_005251",
+      "RAW_005252"
+    ],
+    "relative_paths": [
+      "5/P2_5_151.jpg",
+      "5/P2_5_152.jpg"
+    ],
+    "labels": [
+      "5"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_005251",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f14b01f9b98def1b",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_013242",
+      "RAW_013243"
+    ],
+    "relative_paths": [
+      "D/P2_D_142.jpg",
+      "D/P2_D_143.jpg"
+    ],
+    "labels": [
+      "D"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_013242",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f1a0085cea548d2b",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_021805",
+      "RAW_021806",
+      "RAW_021807",
+      "RAW_021808",
+      "RAW_021809"
+    ],
+    "relative_paths": [
+      "L/P8_L_705.jpg",
+      "L/P8_L_706.jpg",
+      "L/P8_L_707.jpg",
+      "L/P8_L_708.jpg",
+      "L/P8_L_709.jpg"
+    ],
+    "labels": [
+      "L"
+    ],
+    "participants": [
+      "P8"
+    ],
+    "representative_sample_id": "RAW_021805",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f21171c3eef0b924",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031549",
+      "RAW_031649"
+    ],
+    "relative_paths": [
+      "V/P5_V_449.jpg",
+      "V/P6_V_549.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031549",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f268972d031437d8",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018589",
+      "RAW_018689"
+    ],
+    "relative_paths": [
+      "I/P5_I_489.jpg",
+      "I/P6_I_589.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018589",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f2fb8fda467618de",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_034030",
+      "RAW_034031"
+    ],
+    "relative_paths": [
+      "Y/P10_Y_929.jpg",
+      "Y/P10_Y_930.jpg"
+    ],
+    "labels": [
+      "Y"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_034030",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f3586a233ff96c76",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_001032",
+      "RAW_001033"
+    ],
+    "relative_paths": [
+      "1/P10_1_931.jpg",
+      "1/P10_1_932.jpg"
+    ],
+    "labels": [
+      "1"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_001032",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f43f11236eb0b682",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_012237",
+      "RAW_012238",
+      "RAW_012239",
+      "RAW_012240"
+    ],
+    "relative_paths": [
+      "C/P2_C_137.jpg",
+      "C/P2_C_138.jpg",
+      "C/P2_C_139.jpg",
+      "C/P2_C_140.jpg"
+    ],
+    "labels": [
+      "C"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_012237",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f67bf25aa1725b3a",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_021013",
+      "RAW_021015"
+    ],
+    "relative_paths": [
+      "L/P10_L_912.jpg",
+      "L/P10_L_914.jpg"
+    ],
+    "labels": [
+      "L"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_021013",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f74b0ebe9e96bebf",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031516",
+      "RAW_031616"
+    ],
+    "relative_paths": [
+      "V/P5_V_416.jpg",
+      "V/P6_V_516.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031516",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f8515e98e391fb1b",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_034207",
+      "RAW_034208"
+    ],
+    "relative_paths": [
+      "Y/P2_Y_107.jpg",
+      "Y/P2_Y_108.jpg"
+    ],
+    "labels": [
+      "Y"
+    ],
+    "participants": [
+      "P2"
+    ],
+    "representative_sample_id": "RAW_034207",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f88f8bd57be94284",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031523",
+      "RAW_031623"
+    ],
+    "relative_paths": [
+      "V/P5_V_423.jpg",
+      "V/P6_V_523.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031523",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f8934df618063edc",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018514",
+      "RAW_018614"
+    ],
+    "relative_paths": [
+      "I/P5_I_414.jpg",
+      "I/P6_I_514.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018514",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f8af643c4eec8fe4",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031578",
+      "RAW_031678"
+    ],
+    "relative_paths": [
+      "V/P5_V_478.jpg",
+      "V/P6_V_578.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031578",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f91466379cd32d19",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_033020",
+      "RAW_033021"
+    ],
+    "relative_paths": [
+      "X/P10_X_919.jpg",
+      "X/P10_X_920.jpg"
+    ],
+    "labels": [
+      "X"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_033020",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_f9fcfd575086ce76",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018508",
+      "RAW_018608"
+    ],
+    "relative_paths": [
+      "I/P5_I_408.jpg",
+      "I/P6_I_508.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018508",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_fced2958f4ace62d",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_034081",
+      "RAW_034082",
+      "RAW_034083",
+      "RAW_034084"
+    ],
+    "relative_paths": [
+      "Y/P10_Y_980.jpg",
+      "Y/P10_Y_981.jpg",
+      "Y/P10_Y_982.jpg",
+      "Y/P10_Y_983.jpg"
+    ],
+    "labels": [
+      "Y"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_034081",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_fd5f10d43f64ba4f",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_031592",
+      "RAW_031692"
+    ],
+    "relative_paths": [
+      "V/P5_V_492.jpg",
+      "V/P6_V_592.jpg"
+    ],
+    "labels": [
+      "V"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_031592",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_fe2ae5e1e03d4d4d",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018569",
+      "RAW_018669"
+    ],
+    "relative_paths": [
+      "I/P5_I_469.jpg",
+      "I/P6_I_569.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P5",
+      "P6"
+    ],
+    "representative_sample_id": "RAW_018569",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_fe7aa0ee5c74f7b9",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_018076",
+      "RAW_018077"
+    ],
+    "relative_paths": [
+      "I/P10_I_975.jpg",
+      "I/P10_I_976.jpg"
+    ],
+    "labels": [
+      "I"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_018076",
+    "label_conflict": false
+  },
+  {
+    "duplicate_group": "EXACT_ff95ec0cd8804776",
+    "type": "exact_pixel",
+    "sample_ids": [
+      "RAW_035094",
+      "RAW_035095"
+    ],
+    "relative_paths": [
+      "Z/P10_Z_993.jpg",
+      "Z/P10_Z_994.jpg"
+    ],
+    "labels": [
+      "Z"
+    ],
+    "participants": [
+      "P10"
+    ],
+    "representative_sample_id": "RAW_035094",
+    "label_conflict": false
+  }
+]
