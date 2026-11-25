@@ -1,0 +1,117 @@
+{
+  "raw_image_count": 36000,
+  "in_scope_image_count": 34000,
+  "usable_image_count": 33426,
+  "status_counts": {
+    "approved": 33426,
+    "rejected": 2550,
+    "review_needed": 24
+  },
+  "warning_counts": {
+    "duplicate_exact": 559,
+    "duplicate_representative": 435,
+    "low_contrast": 13,
+    "out_of_scope": 2000,
+    "possibly_blurry": 41
+  },
+  "review_queue_count": 24,
+  "label_counts": {
+    "0": 1000,
+    "1": 1000,
+    "2": 1000,
+    "3": 1000,
+    "4": 1000,
+    "5": 1000,
+    "6": 1000,
+    "7": 1000,
+    "8": 1000,
+    "9": 1000,
+    "A": 1000,
+    "B": 1000,
+    "C": 1000,
+    "D": 1000,
+    "E": 1000,
+    "F": 1000,
+    "G": 1000,
+    "H": 1000,
+    "I": 1000,
+    "J": 1000,
+    "K": 1000,
+    "L": 1000,
+    "M": 1000,
+    "N": 1000,
+    "O": 1000,
+    "P": 1000,
+    "Q": 1000,
+    "R": 1000,
+    "S": 1000,
+    "T": 1000,
+    "U": 1000,
+    "V": 1000,
+    "W": 1000,
+    "X": 1000,
+    "Y": 1000,
+    "Z": 1000
+  },
+  "exact_duplicate_groups": 435,
+  "cross_participant_groups": 199,
+  "conflicting_label_groups": 0,
+  "subject_groups": [
+    {
+      "subject_group": "SG_P1",
+      "participants": [
+        "P1"
+      ]
+    },
+    {
+      "subject_group": "SG_P2",
+      "participants": [
+        "P2"
+      ]
+    },
+    {
+      "subject_group": "SG_P3",
+      "participants": [
+        "P3"
+      ]
+    },
+    {
+      "subject_group": "SG_P4",
+      "participants": [
+        "P4"
+      ]
+    },
+    {
+      "subject_group": "SG_P5_P6",
+      "participants": [
+        "P5",
+        "P6"
+      ]
+    },
+    {
+      "subject_group": "SG_P7",
+      "participants": [
+        "P7"
+      ]
+    },
+    {
+      "subject_group": "SG_P8",
+      "participants": [
+        "P8"
+      ]
+    },
+    {
+      "subject_group": "SG_P9",
+      "participants": [
+        "P9"
+      ]
+    },
+    {
+      "subject_group": "SG_P10",
+      "participants": [
+        "P10"
+      ]
+    }
+  ],
+  "note": "Thống kê tự động Task 2.1; chưa thay thế rà soát thủ công Task 2.2."
+}

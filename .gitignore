@@ -8,6 +8,7 @@ venv/
 env/
 .env
 .venv/
+.venv311/
 
 # Cấu hình IDE cá nhân (Đã sửa lỗi gõ nhầm chữ s)
 .vscode/
@@ -20,8 +21,7 @@ Thumbs.db
 # Data & CSV (Không đẩy dữ liệu nặng lên Git)
 *.csv
 data/raw/
-data/processed/X.npy
-data/processed/y.npy
+*.zip
 
 # Models nặng (Chỉ dùng lúc train Keras)
 *.h5
@@ -35,4 +35,5 @@ data/processed/y.npy
 # 2. Giữ cấu trúc thư mục rỗng khi người khác clone về
 !data/processed/.gitkeep
 !models/.gitkeep
+!results/.gitkeep
 !results/figures/.gitkeep

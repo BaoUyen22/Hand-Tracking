@@ -83,3 +83,6 @@ tqdm>=4.60
 #   - Tự động tải bộ dữ liệu ảnh thô (như bộ Marxulia Alphabet) từ Hugging Face
 #     về máy thông qua script mà không cần tải thủ công bằng trình duyệt.
 huggingface_hub>=0.20
+
+# ImageHash: hỗ trợ kiểm tra ảnh gần trùng bằng perceptual hashing (pHash)
+ImageHash
