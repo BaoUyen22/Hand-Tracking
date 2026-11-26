@@ -1,72 +1,52 @@
 # ==============================================================================
 # HE THONG NHAN DIEN KY HIEU BAN TAY TINH (STATIC HAND GESTURE RECOGNITION)
-# Moi truong de xuat: Python 3.10 hoac 3.11 (Vi du: .venv\Scripts\python.exe)
+# Moi truong: Python 3.10 hoac 3.11 (.venv)
 # ==============================================================================
 
 # ------------------------------------------------------------------------------
-# 1. THI GIAC MAY TINH & TRICH XUAT KHUNG XUONG (Webcam & Landmark Extraction)
+# 1. THI GIAC MAY TINH & TRICH XUAT KHUNG XUONG (Webcam & Landmarks)
 # ------------------------------------------------------------------------------
-# opencv-python:
-#   - Dung trong collect_data.py va 03_app.py.
-#   - Doc webcam thoi gian thuc, lat anh mirror, ve bounding box va nhan.
 opencv-python>=4.8,<5
-
-# mediapipe:
-#   - Dung de boc tach 21 diem moc (landmarks) cua ban tay.
-#   - Khoa o ban 0.10.14 de tranh loi bo API o cac ban moi.
 mediapipe==0.10.14
 
-
 # ------------------------------------------------------------------------------
-# 2. XU LY SO LIEU & HUAN LUYEN MO HINH (Data Processing & Training)
+# 2. XU LY SO LIEU & HUAN LUYEN MO HINH (Data & Training)
 # ------------------------------------------------------------------------------
-# numpy:
-#   - Tinh toan ma tran toa do va luu file .npy.
 numpy>=1.24,<2.0
-
-# pandas:
-#   - Quan ly nhan va thong ke du lieu.
 pandas>=2.0
-
-# scikit-learn:
-#   - Chia tap train/test va danh gia F1-score, Confusion Matrix.
 scikit-learn>=1.3
-
-# tensorflow:
-#   - Huan luyen mang MLP phan loai ky tu.
 tensorflow>=2.15,<2.17
 
-
 # ------------------------------------------------------------------------------
-# 3. TOI UU HOA & SUY LUAN SIEU TOC TREN CPU (ONNX & Real-time Inference)
+# 3. ONNX & SUY LUAN CPU (ONNX Inference)
 # ------------------------------------------------------------------------------
-# tf2onnx:
-#   - Xuat mo hinh Keras sang ONNX.
 tf2onnx>=1.15
-
-# onnxruntime:
-#   - Chay suy luan toc do cao tren CPU cho webcam 03_app.py.
 onnxruntime>=1.16
 
+# ------------------------------------------------------------------------------
+# 4. KHOA PHIEN BAN TRUNG GIAN DONG BO (Protobuf Harmonization)
+# ------------------------------------------------------------------------------
+# protobuf 4.25.8 la phien ban dong bo dong thoi:
+# MediaPipe (<5), TensorFlow (<5) va ONNXRuntime (>=4.25.8)
+protobuf==4.25.8
 
 # ------------------------------------------------------------------------------
-# 4. TRUC QUAN HOA & DANH GIA (Plots & Confusion Matrix)
+# 5. DANH GIA & TRUC QUAN HOA (Evaluation)
 # ------------------------------------------------------------------------------
 matplotlib>=3.7
 seaborn>=0.12
-
-
-# ------------------------------------------------------------------------------
-# 5. TIEN ICH HO TRO DU LIEU (Utilities)
-# ------------------------------------------------------------------------------
 tqdm>=4.60
 huggingface_hub>=0.20
 ImageHash
 
+# ------------------------------------------------------------------------------
+# 6. TRO NANG GIONG NOI OFFLINE (Text-To-Speech)
+# ------------------------------------------------------------------------------
+pyttsx3>=2.90
 
 # ------------------------------------------------------------------------------
-# 6. TRO NANG & TONG HOP GIONG NOI (Text-To-Speech - TTS)
+# 7. BACKEND REST API & DEPLOYMENT (FastAPI)
 # ------------------------------------------------------------------------------
-# pyttsx3:
-#   - Chuyen doi van ban ghep duoc thanh giong noi phat qua loa may tinh.
-pyttsx3>=2.90
+fastapi
+uvicorn
+python-multipart
