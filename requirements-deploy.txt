@@ -1,0 +1,7 @@
+# Runtime-only dependencies for FastAPI + MediaPipe + ONNX inference
+fastapi
+uvicorn[standard]
+mediapipe==0.10.14
+numpy>=1.24,<2.0
+onnxruntime>=1.16
+protobuf==4.25.8

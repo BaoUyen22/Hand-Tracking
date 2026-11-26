@@ -1,13 +1,10 @@
-"""
-api.py - Backend FastAPI phục vụ nhận diện ngôn ngữ ký hiệu
-- Cung cấp endpoint REST API /predict nhận frame ảnh base64
-- Trả về nhãn, độ tin cậy, bounding box và landmarks
-- Phục vụ giao diện web index.html
-"""
+"""FastAPI backend for static hand-gesture recognition."""
 
 import base64
 import json
+import os
 from pathlib import Path
+
 import cv2
 import mediapipe as mp
 import numpy as np
@@ -19,31 +16,70 @@ from pydantic import BaseModel
 
 from src.features import landmarks_to_features
 
-# ================= CẤU HÌNH & KHỞI TẠO =================
-app = FastAPI(title="Sign Language Recognition API")
-
-# Cho phép gọi API từ mọi domain (CORS)
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-MODELS_DIR = Path("models")
+# Resolve all project assets relative to this api.py file, not the shell's cwd.
+BASE_DIR = Path(__file__).resolve().parent
+MODELS_DIR = BASE_DIR / "models"
 ONNX_MODEL_PATH = MODELS_DIR / "static_gesture_mlp.onnx"
 METADATA_PATH = MODELS_DIR / "model_metadata.json"
+INDEX_FILE = BASE_DIR / "index.html"
 
-with open(METADATA_PATH, "r", encoding="utf-8") as f:
+app = FastAPI(title="Sign Language Recognition API")
+
+# For separate Vercel/Render domains, set FRONTEND_ORIGINS on Render to the
+# exact Vercel production origin, e.g. https://hand-tracking.vercel.app
+FRONTEND_ORIGINS = [
+    origin.strip().rstrip("/")
+    for origin in os.getenv(
+        "FRONTEND_ORIGINS",
+        "http://localhost:5500,http://127.0.0.1:5500",
+    ).split(",")
+    if origin.strip()
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=FRONTEND_ORIGINS,
+    allow_credentials=False,
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type"],
+)
+
+# Fail at startup with a clear message if the model files are absent.
+if not ONNX_MODEL_PATH.is_file():
+    raise FileNotFoundError(f"Không tìm thấy ONNX model: {ONNX_MODEL_PATH}")
+if not METADATA_PATH.is_file():
+    raise FileNotFoundError(f"Không tìm thấy metadata: {METADATA_PATH}")
+
+with METADATA_PATH.open("r", encoding="utf-8") as f:
     metadata = json.load(f)
 
 CLASSES = metadata["classes"]
-INPUT_NAME = metadata.get("input_name", "landmarks")
-OUTPUT_NAME = metadata.get("output_name", "probs")
 DIGIT_COUNT = metadata.get("modes", {}).get("digit", {}).get("end", 10)
 
-session = ort.InferenceSession(str(ONNX_MODEL_PATH), providers=["CPUExecutionProvider"])
+session = ort.InferenceSession(
+    str(ONNX_MODEL_PATH),
+    providers=["CPUExecutionProvider"],
+)
+
+# Use metadata names when present, then validate them against the ONNX graph.
+onnx_inputs = session.get_inputs()
+onnx_outputs = session.get_outputs()
+if not onnx_inputs or not onnx_outputs:
+    raise RuntimeError("ONNX model không có input hoặc output.")
+
+INPUT_NAME = metadata.get("input_name") or onnx_inputs[0].name
+OUTPUT_NAME = metadata.get("output_name") or onnx_outputs[0].name
+
+if INPUT_NAME not in {item.name for item in onnx_inputs}:
+    raise RuntimeError(
+        f"Input ONNX '{INPUT_NAME}' không tồn tại. "
+        f"Các input: {[item.name for item in onnx_inputs]}"
+    )
+if OUTPUT_NAME not in {item.name for item in onnx_outputs}:
+    raise RuntimeError(
+        f"Output ONNX '{OUTPUT_NAME}' không tồn tại. "
+        f"Các output: {[item.name for item in onnx_outputs]}"
+    )
 
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(
@@ -53,25 +89,35 @@ hands = mp_hands.Hands(
     min_tracking_confidence=0.5,
 )
 
-# ================= SCHEMA DỮ LIỆU =================
-class PredictRequest(BaseModel):
-    image: str       # Chuỗi ảnh base64 gửi từ trình duyệt
-    mode: str = "all"  # "all", "digit", "letter"
 
-# ================= ENDPOINT API =================
+class PredictRequest(BaseModel):
+    image: str
+    mode: str = "all"  # all, digit, letter
+
+
+@app.get("/health")
+def health():
+    return {
+        "status": "ok",
+        "model_loaded": True,
+        "input_name": INPUT_NAME,
+        "output_name": OUTPUT_NAME,
+        "classes": len(CLASSES),
+    }
+
+
 @app.post("/predict")
 def predict_gesture(req: PredictRequest):
     try:
-        # 1. Giải mã chuỗi base64 thành ảnh OpenCV
-        img_data = req.image.split(",")[-1]
-        img_bytes = base64.b64decode(img_data)
-        np_arr = np.frombuffer(img_bytes, np.uint8)
+        encoded_image = req.image.split(",", 1)[-1]
+        image_bytes = base64.b64decode(encoded_image, validate=True)
+        np_arr = np.frombuffer(image_bytes, dtype=np.uint8)
         frame = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
 
         if frame is None:
-            raise HTTPException(status_code=400, detail="Không thể giải mã ảnh")
+            raise HTTPException(status_code=400, detail="Không thể giải mã ảnh.")
 
-        h, w, _ = frame.shape
+        height, width = frame.shape[:2]
         rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         results = hands.process(rgb_frame)
 
@@ -80,30 +126,39 @@ def predict_gesture(req: PredictRequest):
 
         hand_landmarks = results.multi_hand_landmarks[0]
 
-        # 2. Chuẩn hóa đặc trưng theo hợp đồng 63 chiều
-        feat = landmarks_to_features([hand_landmarks], image_width=w, image_height=h)
-        feat = np.expand_dims(feat, axis=0)
+        features = landmarks_to_features(
+            [hand_landmarks],
+            image_width=width,
+            image_height=height,
+        )
+        features = np.asarray(features, dtype=np.float32)
+        if features.ndim == 1:
+            features = np.expand_dims(features, axis=0)
 
-        # 3. Dự đoán qua ONNX
-        raw_probs = session.run([OUTPUT_NAME], {INPUT_NAME: feat})[0][0]
+        raw_output = session.run([OUTPUT_NAME], {INPUT_NAME: features})[0]
+        raw_probs = np.asarray(raw_output)[0]
 
-        # 4. Lọc theo mode
         if req.mode == "digit":
             sub_probs = raw_probs[:DIGIT_COUNT]
+            if sub_probs.size == 0:
+                raise HTTPException(status_code=400, detail="Model không có nhóm nhãn digit.")
             idx = int(np.argmax(sub_probs))
-            label = CLASSES[idx]
-            conf = float(sub_probs[idx])
         elif req.mode == "letter":
             sub_probs = raw_probs[DIGIT_COUNT:]
+            if sub_probs.size == 0:
+                raise HTTPException(status_code=400, detail="Model không có nhóm nhãn letter.")
             idx = int(DIGIT_COUNT + np.argmax(sub_probs))
-            label = CLASSES[idx]
-            conf = float(raw_probs[idx])
         else:
             idx = int(np.argmax(raw_probs))
-            label = CLASSES[idx]
-            conf = float(raw_probs[idx])
 
-        # 5. Tọa độ Bounding box và Landmarks để Frontend vẽ lên canvas
+        if idx >= len(CLASSES):
+            raise RuntimeError(
+                f"Output model có {len(raw_probs)} giá trị nhưng metadata chỉ có {len(CLASSES)} nhãn."
+            )
+
+        label = CLASSES[idx]
+        confidence = float(raw_probs[idx])
+
         x_coords = [lm.x for lm in hand_landmarks.landmark]
         y_coords = [lm.y for lm in hand_landmarks.landmark]
         bbox = {
@@ -116,17 +171,25 @@ def predict_gesture(req: PredictRequest):
         return {
             "detected": True,
             "prediction": label,
-            "confidence": round(conf, 4),
+            "confidence": round(confidence, 4),
             "bbox": bbox,
         }
 
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+    except HTTPException:
+        raise
+    except (ValueError, base64.binascii.Error) as exc:
+        raise HTTPException(status_code=400, detail="Ảnh Base64 không hợp lệ.") from exc
+    except Exception as exc:
+        print(f"Lỗi predict: {type(exc).__name__}: {exc}")
+        raise HTTPException(
+            status_code=500,
+            detail="Lỗi xử lý ảnh hoặc dự đoán mô hình.",
+        ) from exc
 
-# ================= PHỤC VỤ TRANG WEB TRỰC TIẾP =================
+
 @app.get("/", response_class=HTMLResponse)
 def serve_index():
-    index_file = Path("index.html")
-    if index_file.exists():
-        return index_file.read_text(encoding="utf-8")
-    return "<h1>Vui lòng tạo file index.html</h1>"
+    # Keep this route for local testing; the production frontend is on Vercel.
+    if INDEX_FILE.is_file():
+        return INDEX_FILE.read_text(encoding="utf-8")
+    return "<h1>Hand-Tracking API is running. Open /docs to inspect the API.</h1>"
