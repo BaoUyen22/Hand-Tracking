@@ -1,88 +1,52 @@
 # ==============================================================================
-# HỆ THỐNG NHẬN DIỆN KÝ HIỆU BÀN TAY TĨNH (STATIC HAND GESTURE RECOGNITION)
-# Môi trường đề xuất: Python 3.10 hoặc 3.11 (Ví dụ: .venv\Scripts\python.exe)
+# HE THONG NHAN DIEN KY HIEU BAN TAY TINH (STATIC HAND GESTURE RECOGNITION)
+# Moi truong: Python 3.10 hoac 3.11 (.venv)
 # ==============================================================================
 
 # ------------------------------------------------------------------------------
-# 1. THỊ GIÁC MÁY TÍNH & TRÍCH XUẤT KHUNG XƯƠNG (Webcam & Landmark Extraction)
+# 1. THI GIAC MAY TINH & TRICH XUAT KHUNG XUONG (Webcam & Landmarks)
 # ------------------------------------------------------------------------------
-# opencv-python: 
-#   - Dùng trong collect_data.py và demo/app.py.
-#   - Đọc webcam thời gian thực, lật ảnh (mirror), vẽ nhãn dự đoán và bounding box.
 opencv-python>=4.8,<5
-
-# mediapipe:
-#   - Dùng trong src/utils.py để bóc tách 21 điểm mốc (landmarks) của bàn tay.
-#   - LƯU Ý KỸ THUẬT: Khóa ở bản <=0.10.14 vì từ bản 0.10.21 trở đi, Google bắt đầu 
-#     loại bỏ cú pháp quen thuộc `mp.solutions.hands` để chuyển sang Tasks API mới.
-#     Giữ 0.10.14 giúp code ngắn gọn, ổn định và không bị lỗi vặt.
 mediapipe==0.10.14
 
-
 # ------------------------------------------------------------------------------
-# 2. XỬ LÝ SỐ LIỆU & HUẤN LUYỆN MÔ HÌNH (Data Processing & Training)
+# 2. XU LY SO LIEU & HUAN LUYEN MO HINH (Data & Training)
 # ------------------------------------------------------------------------------
-# numpy:
-#   - Dùng trong src/utils.py để tính khoảng cách Euclidean (palm-scale) và dời gốc tọa độ (wrist-anchor).
-#   - Lưu trữ mảng tọa độ thành các file .npy trong thư mục data_sample/processed/.
 numpy>=1.24,<2.0
-
-# pandas:
-#   - Dùng trong train.py và scripts xử lý dữ liệu.
-#   - Quản lý nhãn (labels), xuất báo cáo thống kê phân bổ số lượng mẫu giữa các lớp cử chỉ.
 pandas>=2.0
-
-# scikit-learn:
-#   - Dùng trong train.py.
-#   - Chia tập Train/Test theo tỉ lệ phân tầng (stratified split).
-#   - Tính toán các chỉ số đánh giá: Macro-F1, Precision, Recall, Confusion Matrix.
 scikit-learn>=1.3
-
-# tensorflow:
-#   - Dùng trong src/model.py và train.py.
-#   - Xây dựng kiến trúc mạng MLP (Dense 128 -> Dropout 0.3 -> Dense 64 -> Softmax).
-#   - Huấn luyện mô hình phân loại ký tự tĩnh từ vector đặc trưng 84 chiều.
 tensorflow>=2.15,<2.17
 
-
 # ------------------------------------------------------------------------------
-# 3. TỐI ƯU HÓA & SUY LUẬN SIÊU TỐC TRÊN CPU (ONNX Export & Real-time Inference)
+# 3. ONNX & SUY LUAN CPU (ONNX Inference)
 # ------------------------------------------------------------------------------
-# tf2onnx:
-#   - Dùng ở cuối file train.py để chuyển đổi mô hình từ định dạng Keras (.h5) 
-#     sang định dạng mở ONNX (.onnx).
 tf2onnx>=1.15
-
-# onnxruntime:
-#   - Dùng trong demo/app.py để chạy suy luận thời gian thực qua webcam.
-#   - Tối ưu biểu đồ tính toán trên CPU, giúp giảm thời gian dự đoán xuống ~0.01 ms
-#     và đạt tốc độ khung hình từ 30 đến 60 FPS mượt mà.
 onnxruntime>=1.16
 
+# ------------------------------------------------------------------------------
+# 4. KHOA PHIEN BAN TRUNG GIAN DONG BO (Protobuf Harmonization)
+# ------------------------------------------------------------------------------
+# protobuf 4.25.8 la phien ban dong bo dong thoi:
+# MediaPipe (<5), TensorFlow (<5) va ONNXRuntime (>=4.25.8)
+protobuf==4.25.8
 
 # ------------------------------------------------------------------------------
-# 4. TRỰC QUAN HÓA & ĐÁNH GIÁ (Evaluation Plots & Confusion Matrix)
+# 5. DANH GIA & TRUC QUAN HOA (Evaluation)
 # ------------------------------------------------------------------------------
-# matplotlib & seaborn:
-#   - Dùng để vẽ đồ thị hàm mất mát (Loss Curve), độ chính xác (Accuracy Curve) qua các epoch.
-#   - Vẽ biểu đồ nhiệt ma trận nhầm lẫn (Confusion Matrix Heatmap) lưu vào thư mục results/ 
-#     phục vụ cho việc viết báo cáo và đưa vào slide thuyết trình.
 matplotlib>=3.7
 seaborn>=0.12
-
-
-# ------------------------------------------------------------------------------
-# 5. TIỆN ÍCH HỖ TRỢ DỮ LIỆU (Utilities & Progress Monitoring)
-# ------------------------------------------------------------------------------
-# tqdm:
-#   - Hiển thị thanh tiến trình trực quan khi bóc tách hàng nghìn frame ảnh tọa độ
-#     trong các file scripts/extract_features.py.
 tqdm>=4.60
-
-# huggingface_hub:
-#   - Tự động tải bộ dữ liệu ảnh thô (như bộ Marxulia Alphabet) từ Hugging Face
-#     về máy thông qua script mà không cần tải thủ công bằng trình duyệt.
 huggingface_hub>=0.20
-
-# ImageHash: hỗ trợ kiểm tra ảnh gần trùng bằng perceptual hashing (pHash)
 ImageHash
+
+# ------------------------------------------------------------------------------
+# 6. TRO NANG GIONG NOI OFFLINE (Text-To-Speech)
+# ------------------------------------------------------------------------------
+pyttsx3>=2.90
+
+# ------------------------------------------------------------------------------
+# 7. BACKEND REST API & DEPLOYMENT (FastAPI)
+# ------------------------------------------------------------------------------
+fastapi
+uvicorn
+python-multipart
