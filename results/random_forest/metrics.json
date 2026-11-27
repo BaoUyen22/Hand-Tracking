@@ -1,0 +1,136 @@
+{
+  "model": "RandomForestClassifier",
+  "role": "Thành viên A - mô hình so sánh, không triển khai webcam",
+  "feature_dim": 63,
+  "classes": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y"
+  ],
+  "split": {
+    "train": 19953,
+    "validation": 6735,
+    "test": 6651
+  },
+  "seed": 42,
+  "selection_rule": "Highest validation macro-F1; tie: validation accuracy",
+  "candidates": [
+    {
+      "candidate": 1,
+      "parameters": {
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+      },
+      "train_seconds": 2.0932,
+      "validation": {
+        "accuracy": 0.699183,
+        "precision_macro": 0.713806,
+        "recall_macro": 0.700728,
+        "f1_macro": 0.6719,
+        "precision_weighted": 0.712176,
+        "recall_weighted": 0.699183,
+        "f1_weighted": 0.670112
+      }
+    },
+    {
+      "candidate": 2,
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+      },
+      "train_seconds": 3.7291,
+      "validation": {
+        "accuracy": 0.697402,
+        "precision_macro": 0.718458,
+        "recall_macro": 0.699006,
+        "f1_macro": 0.667694,
+        "precision_weighted": 0.716826,
+        "recall_weighted": 0.697402,
+        "f1_weighted": 0.665833
+      }
+    },
+    {
+      "candidate": 3,
+      "parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 1
+      },
+      "train_seconds": 8.0642,
+      "validation": {
+        "accuracy": 0.697402,
+        "precision_macro": 0.718458,
+        "recall_macro": 0.699006,
+        "f1_macro": 0.667694,
+        "precision_weighted": 0.716826,
+        "recall_weighted": 0.697402,
+        "f1_weighted": 0.665833
+      }
+    }
+  ],
+  "chosen_candidate": 1,
+  "chosen_parameters": {
+    "n_estimators": 100,
+    "max_depth": 20,
+    "min_samples_leaf": 1
+  },
+  "validation": {
+    "accuracy": 0.699183,
+    "precision_macro": 0.713806,
+    "recall_macro": 0.700728,
+    "f1_macro": 0.6719,
+    "precision_weighted": 0.712176,
+    "recall_weighted": 0.699183,
+    "f1_weighted": 0.670112
+  },
+  "test": {
+    "accuracy": 0.802135,
+    "precision_macro": 0.829778,
+    "recall_macro": 0.802135,
+    "f1_macro": 0.782414,
+    "precision_weighted": 0.828725,
+    "recall_weighted": 0.802135,
+    "f1_weighted": 0.781863
+  },
+  "test_predict_total_seconds": 0.151291,
+  "test_predict_ms_per_sample": 0.022747,
+  "environment": {
+    "python": "3.11.9",
+    "numpy": "1.26.4",
+    "scikit_learn": "1.9.1"
+  },
+  "note": "Tốc độ batch Test không tương đương độ trễ webcam 1 frame; không đánh giá unknown gestures."
+}
