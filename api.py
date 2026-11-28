@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent
 MODELS_DIR = BASE_DIR / "models"
 ONNX_MODEL_PATH = MODELS_DIR / "static_gesture_mlp.onnx"
 METADATA_PATH = MODELS_DIR / "model_metadata.json"
-INDEX_FILE = BASE_DIR / "index.html"
+INDEX_FILE = BASE_DIR / "frontend" / "index.html"
 
 app = FastAPI(title="Sign Language Recognition API")
 

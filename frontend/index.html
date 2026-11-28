@@ -501,8 +501,16 @@
   </div>
 
   <script>
-    // Thay URL này bằng domain Backend thực tế do Render cấp sau khi deploy.
-    const API_BASE_URL = "https://YOUR-RENDER-SERVICE.onrender.com";
+    // Thay URL này bằng domain Backend thực tế do Render cấp sau khi deploy (khi frontend chạy trên Vercel).
+    const RENDER_API_URL = "https://YOUR-RENDER-SERVICE.onrender.com";
+    const API_BASE_URL =
+      window.location.protocol === "file:"
+        ? "http://127.0.0.1:8000"
+        : window.location.port === "5500"
+          ? `${window.location.protocol}//${window.location.hostname}:8000`
+          : window.location.hostname.endsWith(".vercel.app")
+            ? RENDER_API_URL
+            : window.location.origin;
     const video = document.getElementById('webcam');
     const canvas = document.getElementById('overlayCanvas');
     const ctx = canvas.getContext('2d');
