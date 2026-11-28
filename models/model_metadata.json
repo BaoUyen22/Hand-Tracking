@@ -1,0 +1,75 @@
+{
+  "model_version": "static_mlp_v2_handgeom",
+  "model_file": "static_gesture_mlp.onnx",
+  "model_sha256": "908067811064dd43f8dc2886371d81bfbba2aee7e9cab143474b0f68433f0d7d",
+  "classes_file": "classes.json",
+  "classes_sha256": "19cc90ca309f323fe2829993ff426c0d7dc928aa5e0c5ef740421ae0f39640b8",
+  "input_name": "landmarks",
+  "output_name": "probs",
+  "input_dtype": "float32",
+  "input_shape": [
+    "batch",
+    63
+  ],
+  "output_shape": [
+    "batch",
+    34
+  ],
+  "input_dim": 63,
+  "num_classes": 34,
+  "feature_version": "hand63_aspect_wrist09_v1",
+  "normalization": "aspect_corrected_xy_then_wrist_origin_and_2d_distance_landmarks_0_9",
+  "classes": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y"
+  ],
+  "modes": {
+    "all": {
+      "start": 0,
+      "end": 34
+    },
+    "digit": {
+      "start": 0,
+      "end": 10
+    },
+    "letter": {
+      "start": 10,
+      "end": 34
+    }
+  },
+  "opset": 13,
+  "onnxruntime_verified_version": "1.31.1",
+  "batch1_vs_batchN_max_diff": 0.0
+}

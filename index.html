@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hand Tracking - Sign Language Recognition</title>
+  <style>
+    :root {
+      --c-video-bg: #0e0d0b;
+      --c-bg: #1a1814;
+      --c-card: #26231e;
+      --c-card-2: #36322c;
+      --c-hover: #423e36;
+      --c-border: #48443c;
+      --c-text: #f5f5f5;
+      --c-muted: #aca79d;
+      --c-dim: #807b71;
+      --c-accent: #70990d;
+      --c-accent-dark: #486a08;
+      --c-accent-light: #a6d550;
+      --c-amber: #ffbe28;
+      --c-red: #f06464;
+    }
+
+    * { box-sizing: border-box; user-select: none; }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--c-video-bg);
+      color: var(--c-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      height: 100vh;
+      display: flex;
+      overflow: hidden;
+    }
+
+    /* === KHU VỰC VIDEO (BÊN TRÁI) === */
+    .video-viewport {
+      flex: 1;
+      position: relative;
+      background: var(--c-video-bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      transform: scaleX(-1); /* Chỉ lật camera để thao tác tự nhiên */
+    }
+
+    /* ĐÃ FIX: Không lật canvas để chữ viết KHÔNG bị ngược */
+    canvas#overlayCanvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    /* ĐÃ BỎ KÍNH MỜ (GLASSMORPHISM): DÙNG NỀN ĐẶC RÕ NÉT */
+    .live-chip {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: var(--c-card);
+      border: 1px solid var(--c-border);
+      border-radius: 20px;
+      padding: 6px 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      font-weight: 700;
+      z-index: 10;
+    }
+    .live-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--c-red);
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    .hold-bar-card {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 340px;
+      background: var(--c-card);
+      border: 1px solid var(--c-border);
+      border-radius: 12px;
+      padding: 12px 16px;
+      z-index: 10;
+    }
+    .hold-title-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: var(--c-amber);
+    }
+    .progress-track {
+      width: 100%;
+      height: 10px;
+      background: var(--c-card-2);
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      width: 0%;
+      height: 100%;
+      background: var(--c-amber);
+      transition: width 0.08s ease;
+    }
+    .hold-sub {
+      font-size: 11px;
+      color: var(--c-muted);
+      margin-top: 6px;
+    }
+
+    .sentence-card {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      background: var(--c-bg);
+      border: 2px solid var(--c-amber);
+      border-radius: 12px;
+      padding: 14px 20px;
+      z-index: 10;
+      transition: border-color 0.3s;
+    }
+    .sentence-card.speaking { border-color: var(--c-accent-light); }
+    .sentence-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--c-muted);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+    }
+    .sentence-text {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--c-text);
+      min-height: 32px;
+      display: flex;
+      align-items: center;
+      word-break: break-all;
+    }
+    .cursor {
+      display: inline-block;
+      width: 2px;
+      height: 24px;
+      background: var(--c-amber);
+      margin-left: 6px;
+      animation: blink 1s infinite;
+    }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+    /* === BẢNG ĐIỀU KHIỂN (BÊN PHẢI) === */
+    .sidebar {
+      width: 360px;
+      background: var(--c-bg);
+      border-left: 1px solid var(--c-border);
+      display: flex;
+      flex-direction: column;
+      padding: 24px 20px;
+      gap: 20px;
+      overflow-y: auto;
+    }
+
+    .header-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--c-border);
+    }
+    .logo-badge {
+      width: 44px;
+      height: 44px;
+      background: var(--c-accent);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 18px;
+    }
+    .title-col { flex: 1; }
+    .main-title { font-size: 15px; font-weight: 800; letter-spacing: 0.5px; }
+    .sub-title { font-size: 11px; color: var(--c-muted); }
+    .fps-badge {
+      background: var(--c-card-2);
+      color: var(--c-accent-light);
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .sec-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--c-muted);
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .result-card {
+      background: var(--c-card);
+      border-radius: 12px;
+      padding: 14px;
+      display: flex;
+      gap: 16px;
+    }
+    .char-box {
+      width: 80px;
+      height: 80px;
+      background: var(--c-card-2);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 44px;
+      font-weight: 900;
+      color: var(--c-accent-light);
+    }
+    .result-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 6px;
+    }
+    .conf-row { display: flex; justify-content: space-between; font-size: 13px; font-weight: 700; }
+    .status-badge { font-size: 11px; font-weight: 600; }
+
+    .mode-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+    }
+    .mode-btn {
+      background: var(--c-card);
+      border: 1px solid var(--c-border);
+      border-radius: 10px;
+      padding: 10px 6px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+    .mode-btn:hover { background: var(--c-hover); border-color: var(--c-accent-light); }
+    .mode-btn.active {
+      background: var(--c-accent);
+      border-color: var(--c-accent-light);
+    }
+    .key-badge {
+      background: var(--c-card-2);
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .mode-btn.active .key-badge { background: var(--c-accent-dark); }
+    .mode-text-wrap { display: flex; flex-direction: column; }
+    .mode-name { font-size: 11px; font-weight: 700; }
+    .mode-desc { font-size: 9px; color: var(--c-muted); }
+    .mode-btn.active .mode-desc { color: var(--c-text); }
+
+    .controls-list { display: flex; flex-direction: column; gap: 8px; }
+    .ctrl-item {
+      background: var(--c-card);
+      border: 1px solid transparent;
+      border-radius: 9px;
+      padding: 6px 10px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .ctrl-item:hover { background: var(--c-hover); border-color: var(--c-accent-light); }
+    .ctrl-item.danger:hover { border-color: var(--c-red); }
+    .ctrl-btn-badge {
+      min-width: 90px;
+      height: 28px;
+      background: var(--c-card-2);
+      border: 1px solid var(--c-border);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--c-text);
+      box-shadow: 0 2px 0 #12100e;
+    }
+    .ctrl-item.gesture .ctrl-btn-badge {
+      background: transparent;
+      border-color: var(--c-accent);
+      color: var(--c-accent-light);
+      cursor: default;
+    }
+    .ctrl-desc { font-size: 12px; color: var(--c-text); }
+    .ctrl-item.danger .ctrl-desc { color: var(--c-red); }
+
+    .footer {
+      margin-top: auto;
+      padding-top: 14px;
+      border-top: 1px solid var(--c-border);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 12px;
+      color: var(--c-muted);
+    }
+    .speaker-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--c-dim);
+    }
+    .speaker-dot.active { background: var(--c-accent-light); }
+    /* TỐI ƯU GIAO DIỆN KHI XEM TRÊN ĐIỆN THOẠI */
+    @media (max-width: 850px) {
+      body {
+        flex-direction: column;
+        height: auto;
+        overflow-y: auto;
+      }
+      .video-viewport {
+        width: 100%;
+        height: 55vh;
+        min-height: 380px;
+      }
+      .sidebar {
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid var(--c-border);
+      }
+      .hold-bar-card {
+        width: calc(100% - 40px);
+        top: 60px;
+        right: 20px;
+        left: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- KHUNG VIDEO CHÍNH -->
+  <div class="video-viewport">
+    <video id="webcam" autoplay playsinline></video>
+    <canvas id="overlayCanvas"></canvas>
+
+    <!-- CHIP CHẾ ĐỘ -->
+    <div class="live-chip">
+      <div class="live-dot"></div>
+      <span id="liveModeText">34 Ky tu (ALL)</span>
+    </div>
+
+    <!-- THANH GIỮ TAY -->
+    <div class="hold-bar-card" id="holdCard">
+      <div class="hold-title-row">
+        <span id="holdTitle">GIU TAY DE GO: -</span>
+        <span id="holdPct">0%</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <div class="hold-sub" id="holdSub">Giu yen ky hieu ~0.5s de go chu</div>
+    </div>
+
+    <!-- HỘP CÂU GHÉP -->
+    <div class="sentence-card" id="sentenceCard">
+      <div class="sentence-header">
+        <span>Cau da ghep</span>
+        <span id="sentenceHint">ENTER: doc   |   BACKSPACE: xoa</span>
+      </div>
+      <div class="sentence-text">
+        <span id="sentenceDisplay">Giu tay truoc camera de ghep tung chu cai...</span>
+        <div class="cursor"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BẢNG ĐIỀU KHIỂN BÊN PHẢI -->
+  <div class="sidebar">
+    <div class="header-row">
+      <div class="logo-badge">SL</div>
+      <div class="title-col">
+        <div class="main-title">SIGN LANGUAGE</div>
+        <div class="sub-title">Hand Tracking Recognition</div>
+      </div>
+      <div class="fps-badge" id="fpsBadge">-- FPS</div>
+    </div>
+
+    <div>
+      <div class="sec-label">KET QUA NHAN DIEN</div>
+      <div class="result-card">
+        <div class="char-box" id="resultChar">?</div>
+        <div class="result-info">
+          <div class="conf-row">
+            <span style="color:var(--c-muted)">Do tin cay</span>
+            <span id="confVal">0%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" id="confBar" style="background:var(--c-accent-light)"></div>
+          </div>
+          <div class="status-badge" id="statusBadge" style="color:var(--c-dim)">Dang cho ban tay...</div>
+          <div style="font-size:10px; color:var(--c-dim)">Nguong go chu: 75%</div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="sec-label">
+        <span>CHE DO</span>
+        <span style="color:var(--c-amber)" id="modeNameRight">34 Ky tu (ALL)</span>
+      </div>
+      <div class="mode-grid">
+        <div class="mode-btn active" id="btnModeAll" onclick="setMode('all')">
+          <div class="key-badge">1</div>
+          <div class="mode-text-wrap">
+            <span class="mode-name">TAT CA</span>
+            <span class="mode-desc">34 ky tu</span>
+          </div>
+        </div>
+        <div class="mode-btn" id="btnModeDigit" onclick="setMode('digit')">
+          <div class="key-badge">2</div>
+          <div class="mode-text-wrap">
+            <span class="mode-name">SO</span>
+            <span class="mode-desc">0 - 9</span>
+          </div>
+        </div>
+        <div class="mode-btn" id="btnModeLetter" onclick="setMode('letter')">
+          <div class="key-badge">3</div>
+          <div class="mode-text-wrap">
+            <span class="mode-name">CHU</span>
+            <span class="mode-desc">A - Y</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="sec-label">
+        <span>DIEU KHIEN</span>
+        <span style="color:var(--c-dim)">nhan nut / go phim</span>
+      </div>
+      <div class="controls-list">
+        <div class="ctrl-item gesture">
+          <div class="ctrl-btn-badge">GIU TAY</div>
+          <div class="ctrl-desc">Giu yen ~0.5s de go chu</div>
+        </div>
+        <div class="ctrl-item" onclick="addSpace()">
+          <div class="ctrl-btn-badge">SPACE</div>
+          <div class="ctrl-desc">Them dau cach</div>
+        </div>
+        <div class="ctrl-item" onclick="backspace()">
+          <div class="ctrl-btn-badge">BACKSPACE</div>
+          <div class="ctrl-desc">Xoa 1 ky tu cuoi</div>
+        </div>
+        <div class="ctrl-item" onclick="speakSentence()">
+          <div class="ctrl-btn-badge" style="color:var(--c-accent-light)">ENTER</div>
+          <div class="ctrl-desc" style="font-weight:700">Doc to ca cau</div>
+        </div>
+        <div class="ctrl-item danger" onclick="clearAll()">
+          <div class="ctrl-btn-badge">C / ESC</div>
+          <div class="ctrl-desc">Xoa sach cau</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="speaker-dot" id="speakerDot"></div>
+      <span id="speakerStatus">Loa san sang - nhan ENTER de doc</span>
+    </div>
+  </div>
+
+  <script>
+    const video = document.getElementById('webcam');
+    const canvas = document.getElementById('overlayCanvas');
+    const ctx = canvas.getContext('2d');
+
+    const fpsBadge = document.getElementById('fpsBadge');
+    const liveModeText = document.getElementById('liveModeText');
+    const modeNameRight = document.getElementById('modeNameRight');
+    const resultChar = document.getElementById('resultChar');
+    const confVal = document.getElementById('confVal');
+    const confBar = document.getElementById('confBar');
+    const statusBadge = document.getElementById('statusBadge');
+    const holdTitle = document.getElementById('holdTitle');
+    const holdPct = document.getElementById('holdPct');
+    const progressFill = document.getElementById('progressFill');
+    const holdSub = document.getElementById('holdSub');
+    const sentenceDisplay = document.getElementById('sentenceDisplay');
+    const sentenceCard = document.getElementById('sentenceCard');
+    const sentenceHint = document.getElementById('sentenceHint');
+    const speakerDot = document.getElementById('speakerDot');
+    const speakerStatus = document.getElementById('speakerStatus');
+
+    let currentMode = "all";
+    const modeDict = { all: "34 Ky tu (ALL)", digit: "So (0-9)", letter: "Chu (A-Y)" };
+
+    let sentence = "";
+    let candidateChar = "";
+    let holdCounter = 0;
+    const REQUIRED_FRAMES = 5;
+    const THRESHOLD = 0.75;
+    let cooldownCounter = 0;
+    const COOLDOWN_FRAMES = 8;
+    let isSpeaking = false;
+
+    let lastTime = performance.now();
+    let frameCount = 0;
+
+    // 1. MỞ WEBCAM
+    navigator.mediaDevices.getUserMedia({ video: { width: 1280, height: 720 } })
+      .then(stream => {
+        video.srcObject = stream;
+        video.onloadedmetadata = () => {
+          canvas.width = video.videoWidth;
+          canvas.height = video.videoHeight;
+          startInferenceLoop();
+        };
+      })
+      .catch(err => alert("Không thể mở Webcam: " + err));
+
+    // 2. VÒNG LẶP GỌI API
+    async function startInferenceLoop() {
+      const offscreen = document.createElement('canvas');
+      offscreen.width = 640;
+      offscreen.height = 480;
+      const offCtx = offscreen.getContext('2d');
+
+      setInterval(async () => {
+        if (video.readyState !== 4) return;
+
+        frameCount++;
+        const now = performance.now();
+        if (now - lastTime >= 1000) {
+          fpsBadge.innerText = `${frameCount} FPS`;
+          frameCount = 0;
+          lastTime = now;
+        }
+
+        offCtx.drawImage(video, 0, 0, offscreen.width, offscreen.height);
+        const base64Img = offscreen.toDataURL('image/jpeg', 0.6);
+
+        try {
+          const res = await fetch('/predict', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ image: base64Img, mode: currentMode })
+          });
+          const data = await res.json();
+          processResult(data);
+        } catch (e) {
+          console.error(e);
+        }
+      }, 100);
+    }
+
+    // 3. XỬ LÝ DỮ LIỆU & VẼ KHUNG XUÔI CHIỀU CHỮ
+    function processResult(data) {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      if (data.detected) {
+        const p = data.prediction;
+        const conf = data.confidence;
+        const pct = Math.round(conf * 100);
+
+        resultChar.innerText = p;
+        resultChar.style.color = "var(--c-accent-light)";
+        confVal.innerText = `${pct}%`;
+        confBar.style.width = `${pct}%`;
+
+        // Vẽ Khung tay (Đã tính đảo ngược tọa độ X để chữ xuôi 100%)
+        drawCornerBox(data.bbox, p, pct, conf >= THRESHOLD);
+
+        if (conf >= THRESHOLD) {
+          statusBadge.innerText = "Dat nguong - dang go chu";
+          statusBadge.style.color = "var(--c-accent-light)";
+          confBar.style.background = "var(--c-accent-light)";
+        } else {
+          statusBadge.innerText = "Chua dat nguong";
+          statusBadge.style.color = "var(--c-amber)";
+          confBar.style.background = "var(--c-amber)";
+        }
+
+        if (cooldownCounter > 0) {
+          cooldownCounter--;
+          holdCounter = 0;
+          updateHoldBar(true, 1.0, "DA GO THANH CONG!", "Doi chut roi lam ky hieu tiep theo");
+        } else {
+          if (conf >= THRESHOLD) {
+            if (p === candidateChar) {
+              holdCounter++;
+              const prog = Math.min(1.0, holdCounter / REQUIRED_FRAMES);
+              updateHoldBar(false, prog, `GIU TAY DE GO:  ${p}`, "Giu yen ky hieu ~0.5s de go chu");
+              if (holdCounter >= REQUIRED_FRAMES) {
+                sentence += p;
+                updateSentence();
+                holdCounter = 0;
+                cooldownCounter = COOLDOWN_FRAMES;
+              }
+            } else {
+              candidateChar = p;
+              holdCounter = 1;
+            }
+          } else {
+            if (holdCounter > 0) holdCounter--;
+            updateHoldBar(false, holdCounter / REQUIRED_FRAMES, `GIU TAY DE GO:  ${candidateChar || "-"}`, "Giu yen ky hieu ~0.5s de go chu");
+          }
+        }
+      } else {
+        resultChar.innerText = "?";
+        resultChar.style.color = "var(--c-dim)";
+        confVal.innerText = "0%";
+        confBar.style.width = "0%";
+        statusBadge.innerText = "Dang cho ban tay...";
+        statusBadge.style.color = "var(--c-dim)";
+
+        candidateChar = "";
+        if (holdCounter > 0) holdCounter--;
+        updateHoldBar(false, 0, "DUA TAY VAO KHUNG HINH", "Giu yen ky hieu ~0.5s de go chu");
+      }
+    }
+
+    // [QUAN TRỌNG]: TÍNH ĐẢO TỌA ĐỘ ĐỂ CHỮ KHÔNG BỊ LẬT NGƯỢC
+    function drawCornerBox(bbox, label, pct, ok) {
+      const color = ok ? "#a6d550" : "#ffbe28";
+      
+      // Đảo ngược trục X: (1 - max) đến (1 - min) để khớp với camera lật gương
+      const x = (1.0 - bbox.x_max) * canvas.width;
+      const y = bbox.y_min * canvas.height;
+      const w = (bbox.x_max - bbox.x_min) * canvas.width;
+      const h = (bbox.y_max - bbox.y_min) * canvas.height;
+      const L = Math.max(14, Math.min(w, h) / 5);
+
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 1;
+      ctx.strokeRect(x, y, w, h);
+
+      ctx.lineWidth = 4;
+      ctx.beginPath();
+      ctx.moveTo(x, y + L); ctx.lineTo(x, y); ctx.lineTo(x + L, y);
+      ctx.moveTo(x + w - L, y); ctx.lineTo(x + w, y); ctx.lineTo(x + w, y + L);
+      ctx.moveTo(x, y + h - L); ctx.lineTo(x, y + h); ctx.lineTo(x + L, y + h);
+      ctx.moveTo(x + w - L, y + h); ctx.lineTo(x + w, y + h); ctx.lineTo(x + w, y + h - L);
+      ctx.stroke();
+
+      // Vẽ nhãn chữ: Giờ đây sẽ xuôi 100% từ trái qua phải
+      ctx.fillStyle = color;
+      ctx.font = "bold 16px -apple-system, sans-serif";
+      const tag = `${label}  ${pct}%`;
+      const tw = ctx.measureText(tag).width;
+      ctx.fillRect(x, Math.max(0, y - 28), tw + 16, 26);
+      ctx.fillStyle = "#141310";
+      ctx.fillText(tag, x + 8, Math.max(18, y - 9));
+    }
+
+    function updateHoldBar(isDone, prog, title, sub) {
+      holdTitle.innerText = title;
+      holdSub.innerText = sub;
+      const p = Math.round(prog * 100);
+      holdPct.innerText = `${p}%`;
+      progressFill.style.width = `${p}%`;
+      if (isDone) {
+        holdTitle.style.color = "var(--c-accent-light)";
+        progressFill.style.background = "var(--c-accent-light)";
+      } else {
+        holdTitle.style.color = "var(--c-amber)";
+        progressFill.style.background = "var(--c-amber)";
+      }
+    }
+
+    function updateSentence() {
+      if (sentence.length > 0) {
+        sentenceDisplay.innerText = sentence;
+        sentenceDisplay.style.color = "var(--c-text)";
+      } else {
+        sentenceDisplay.innerText = "Giu tay truoc camera de ghep tung chu cai...";
+        sentenceDisplay.style.color = "var(--c-dim)";
+      }
+    }
+
+    function setMode(mode) {
+      currentMode = mode;
+      liveModeText.innerText = modeDict[mode];
+      modeNameRight.innerText = modeDict[mode];
+      document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+      if (mode === 'all') document.getElementById('btnModeAll').classList.add('active');
+      if (mode === 'digit') document.getElementById('btnModeDigit').classList.add('active');
+      if (mode === 'letter') document.getElementById('btnModeLetter').classList.add('active');
+    }
+
+    function addSpace() {
+      sentence += " ";
+      updateSentence();
+    }
+
+    function backspace() {
+      if (sentence.length > 0) {
+        sentence = sentence.slice(0, -1);
+        updateSentence();
+      }
+    }
+
+    function clearAll() {
+      sentence = "";
+      updateSentence();
+    }
+
+    function speakSentence() {
+      if (!sentence.trim() || isSpeaking) return;
+      isSpeaking = true;
+      sentenceCard.classList.add('speaking');
+      speakerDot.classList.add('active');
+      speakerStatus.innerText = "Loa: DANG DOC CAU...";
+      sentenceHint.innerText = "DANG DOC...";
+
+      const cleanText = sentence.trim().toLowerCase();
+      const utterance = new SpeechSynthesisUtterance(cleanText);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.9;
+
+      utterance.onend = () => {
+        isSpeaking = false;
+        sentenceCard.classList.remove('speaking');
+        speakerDot.classList.remove('active');
+        speakerStatus.innerText = "Loa san sang - nhan ENTER de doc";
+        sentenceHint.innerText = "ENTER: doc   |   BACKSPACE: xoa";
+      };
+      window.speechSynthesis.speak(utterance);
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === '1') setMode('all');
+      else if (e.key === '2') setMode('digit');
+      else if (e.key === '3') setMode('letter');
+      else if (e.code === 'Space') { e.preventDefault(); addSpace(); }
+      else if (e.key === 'Backspace') { e.preventDefault(); backspace(); }
+      else if (e.key === 'Enter') { e.preventDefault(); speakSentence(); }
+      else if (e.key === 'c' || e.key === 'Escape') { clearAll(); }
+    });
+  </script>
+</body>
+</html>

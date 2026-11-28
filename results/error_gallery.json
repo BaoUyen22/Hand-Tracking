@@ -1,0 +1,1805 @@
+{
+  "total_errors_test": 496,
+  "samples": [
+    {
+      "sample_id": "RAW_000010",
+      "participant_id": "P10",
+      "relative_path": "0/P10_0_909.jpg",
+      "true_label": "0",
+      "pred_label": "C",
+      "pred_confidence": 0.9781,
+      "true_confidence": 0.0017
+    },
+    {
+      "sample_id": "RAW_000013",
+      "participant_id": "P10",
+      "relative_path": "0/P10_0_912.jpg",
+      "true_label": "0",
+      "pred_label": "C",
+      "pred_confidence": 0.9376,
+      "true_confidence": 0.0313
+    },
+    {
+      "sample_id": "RAW_000018",
+      "participant_id": "P10",
+      "relative_path": "0/P10_0_917.jpg",
+      "true_label": "0",
+      "pred_label": "C",
+      "pred_confidence": 0.9782,
+      "true_confidence": 0.0025
+    },
+    {
+      "sample_id": "RAW_000024",
+      "participant_id": "P10",
+      "relative_path": "0/P10_0_923.jpg",
+      "true_label": "0",
+      "pred_label": "O",
+      "pred_confidence": 0.454,
+      "true_confidence": 0.3851
+    },
+    {
+      "sample_id": "RAW_000048",
+      "participant_id": "P10",
+      "relative_path": "0/P10_0_947.jpg",
+      "true_label": "0",
+      "pred_label": "5",
+      "pred_confidence": 0.9829,
+      "true_confidence": 0.0
+    },
+    {
+      "sample_id": "RAW_000050",
+      "participant_id": "P10",
+      "relative_path": "0/P10_0_949.jpg",
+      "true_label": "0",
+      "pred_label": "5",
+      "pred_confidence": 0.557,
+      "true_confidence": 0.0069
+    },
+    {
+      "sample_id": "RAW_000051",
+      "participant_id": "P10",
+      "relative_path": "0/P10_0_950.jpg",
+      "true_label": "0",
+      "pred_label": "3",
+      "pred_confidence": 0.6769,
+      "true_confidence": 0.138
+    },
+    {
+      "sample_id": "RAW_001099",
+      "participant_id": "P10",
+      "relative_path": "1/P10_1_998.jpg",
+      "true_label": "1",
+      "pred_label": "X",
+      "pred_confidence": 0.2747,
+      "true_confidence": 0.2321
+    },
+    {
+      "sample_id": "RAW_006901",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_801.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9971,
+      "true_confidence": 0.0015
+    },
+    {
+      "sample_id": "RAW_006902",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_802.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9975,
+      "true_confidence": 0.0011
+    },
+    {
+      "sample_id": "RAW_006903",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_803.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9975,
+      "true_confidence": 0.0016
+    },
+    {
+      "sample_id": "RAW_006904",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_804.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9971,
+      "true_confidence": 0.0013
+    },
+    {
+      "sample_id": "RAW_006905",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_805.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9971,
+      "true_confidence": 0.0013
+    },
+    {
+      "sample_id": "RAW_006906",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_806.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9967,
+      "true_confidence": 0.0016
+    },
+    {
+      "sample_id": "RAW_006907",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_807.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9954,
+      "true_confidence": 0.0024
+    },
+    {
+      "sample_id": "RAW_006908",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_808.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9968,
+      "true_confidence": 0.0015
+    },
+    {
+      "sample_id": "RAW_006909",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_809.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9975,
+      "true_confidence": 0.0011
+    },
+    {
+      "sample_id": "RAW_006910",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_810.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.997,
+      "true_confidence": 0.0015
+    },
+    {
+      "sample_id": "RAW_006911",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_811.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9973,
+      "true_confidence": 0.0014
+    },
+    {
+      "sample_id": "RAW_006912",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_812.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9969,
+      "true_confidence": 0.0015
+    },
+    {
+      "sample_id": "RAW_006913",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_813.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9968,
+      "true_confidence": 0.0017
+    },
+    {
+      "sample_id": "RAW_006914",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_814.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9954,
+      "true_confidence": 0.0026
+    },
+    {
+      "sample_id": "RAW_006915",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_815.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9962,
+      "true_confidence": 0.0018
+    },
+    {
+      "sample_id": "RAW_006916",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_816.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9956,
+      "true_confidence": 0.0025
+    },
+    {
+      "sample_id": "RAW_006917",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_817.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9972,
+      "true_confidence": 0.0014
+    },
+    {
+      "sample_id": "RAW_006918",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_818.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9969,
+      "true_confidence": 0.0017
+    },
+    {
+      "sample_id": "RAW_006919",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_819.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9968,
+      "true_confidence": 0.0015
+    },
+    {
+      "sample_id": "RAW_006920",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_820.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9961,
+      "true_confidence": 0.0019
+    },
+    {
+      "sample_id": "RAW_006921",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_821.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9958,
+      "true_confidence": 0.0021
+    },
+    {
+      "sample_id": "RAW_006922",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_822.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9951,
+      "true_confidence": 0.0026
+    },
+    {
+      "sample_id": "RAW_006923",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_823.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9958,
+      "true_confidence": 0.002
+    },
+    {
+      "sample_id": "RAW_006924",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_824.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9964,
+      "true_confidence": 0.0019
+    },
+    {
+      "sample_id": "RAW_006925",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_825.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9965,
+      "true_confidence": 0.0018
+    },
+    {
+      "sample_id": "RAW_006926",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_826.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9957,
+      "true_confidence": 0.0023
+    },
+    {
+      "sample_id": "RAW_006927",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_827.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9957,
+      "true_confidence": 0.0022
+    },
+    {
+      "sample_id": "RAW_006928",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_828.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9962,
+      "true_confidence": 0.002
+    },
+    {
+      "sample_id": "RAW_006929",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_829.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9952,
+      "true_confidence": 0.0024
+    },
+    {
+      "sample_id": "RAW_006930",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_830.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9958,
+      "true_confidence": 0.0024
+    },
+    {
+      "sample_id": "RAW_006931",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_831.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9957,
+      "true_confidence": 0.0024
+    },
+    {
+      "sample_id": "RAW_006932",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_832.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9958,
+      "true_confidence": 0.0022
+    },
+    {
+      "sample_id": "RAW_006933",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_833.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9953,
+      "true_confidence": 0.0024
+    },
+    {
+      "sample_id": "RAW_006934",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_834.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9962,
+      "true_confidence": 0.0019
+    },
+    {
+      "sample_id": "RAW_006935",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_835.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9959,
+      "true_confidence": 0.002
+    },
+    {
+      "sample_id": "RAW_006936",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_836.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9964,
+      "true_confidence": 0.0018
+    },
+    {
+      "sample_id": "RAW_006937",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_837.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9966,
+      "true_confidence": 0.0017
+    },
+    {
+      "sample_id": "RAW_006938",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_838.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9964,
+      "true_confidence": 0.0018
+    },
+    {
+      "sample_id": "RAW_006939",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_839.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9959,
+      "true_confidence": 0.0022
+    },
+    {
+      "sample_id": "RAW_006940",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_840.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9966,
+      "true_confidence": 0.0019
+    },
+    {
+      "sample_id": "RAW_006941",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_841.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9967,
+      "true_confidence": 0.0017
+    },
+    {
+      "sample_id": "RAW_006942",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_842.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9965,
+      "true_confidence": 0.0018
+    },
+    {
+      "sample_id": "RAW_006943",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_843.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9949,
+      "true_confidence": 0.0032
+    },
+    {
+      "sample_id": "RAW_006944",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_844.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9964,
+      "true_confidence": 0.0022
+    },
+    {
+      "sample_id": "RAW_006945",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_845.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9964,
+      "true_confidence": 0.0024
+    },
+    {
+      "sample_id": "RAW_006946",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_846.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9966,
+      "true_confidence": 0.0017
+    },
+    {
+      "sample_id": "RAW_006947",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_847.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9957,
+      "true_confidence": 0.0031
+    },
+    {
+      "sample_id": "RAW_006948",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_848.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9958,
+      "true_confidence": 0.0031
+    },
+    {
+      "sample_id": "RAW_006949",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_849.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9969,
+      "true_confidence": 0.002
+    },
+    {
+      "sample_id": "RAW_006950",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_850.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9962,
+      "true_confidence": 0.0026
+    },
+    {
+      "sample_id": "RAW_006951",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_851.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9964,
+      "true_confidence": 0.0025
+    },
+    {
+      "sample_id": "RAW_006952",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_852.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9955,
+      "true_confidence": 0.0033
+    },
+    {
+      "sample_id": "RAW_006953",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_853.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9944,
+      "true_confidence": 0.004
+    },
+    {
+      "sample_id": "RAW_006954",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_854.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9942,
+      "true_confidence": 0.0042
+    },
+    {
+      "sample_id": "RAW_006955",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_855.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9972,
+      "true_confidence": 0.0018
+    },
+    {
+      "sample_id": "RAW_006956",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_856.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9963,
+      "true_confidence": 0.0024
+    },
+    {
+      "sample_id": "RAW_006957",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_857.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.997,
+      "true_confidence": 0.0015
+    },
+    {
+      "sample_id": "RAW_006958",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_858.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.997,
+      "true_confidence": 0.0018
+    },
+    {
+      "sample_id": "RAW_006959",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_859.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9943,
+      "true_confidence": 0.0038
+    },
+    {
+      "sample_id": "RAW_006960",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_860.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.997,
+      "true_confidence": 0.002
+    },
+    {
+      "sample_id": "RAW_006961",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_861.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9963,
+      "true_confidence": 0.0024
+    },
+    {
+      "sample_id": "RAW_006962",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_862.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9958,
+      "true_confidence": 0.0029
+    },
+    {
+      "sample_id": "RAW_006963",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_863.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9943,
+      "true_confidence": 0.0038
+    },
+    {
+      "sample_id": "RAW_006964",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_864.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9952,
+      "true_confidence": 0.003
+    },
+    {
+      "sample_id": "RAW_006965",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_865.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.996,
+      "true_confidence": 0.0025
+    },
+    {
+      "sample_id": "RAW_006966",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_866.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9944,
+      "true_confidence": 0.0038
+    },
+    {
+      "sample_id": "RAW_006967",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_867.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9964,
+      "true_confidence": 0.0022
+    },
+    {
+      "sample_id": "RAW_006968",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_868.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9974,
+      "true_confidence": 0.0012
+    },
+    {
+      "sample_id": "RAW_006969",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_869.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9965,
+      "true_confidence": 0.0022
+    },
+    {
+      "sample_id": "RAW_006970",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_870.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9957,
+      "true_confidence": 0.0027
+    },
+    {
+      "sample_id": "RAW_006971",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_871.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9972,
+      "true_confidence": 0.0016
+    },
+    {
+      "sample_id": "RAW_006972",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_872.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9969,
+      "true_confidence": 0.0019
+    },
+    {
+      "sample_id": "RAW_006973",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_873.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9975,
+      "true_confidence": 0.0015
+    },
+    {
+      "sample_id": "RAW_006974",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_874.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9973,
+      "true_confidence": 0.0017
+    },
+    {
+      "sample_id": "RAW_006975",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_875.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9979,
+      "true_confidence": 0.0013
+    },
+    {
+      "sample_id": "RAW_006976",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_876.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9973,
+      "true_confidence": 0.0016
+    },
+    {
+      "sample_id": "RAW_006977",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_877.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.998,
+      "true_confidence": 0.0011
+    },
+    {
+      "sample_id": "RAW_006978",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_878.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9968,
+      "true_confidence": 0.0022
+    },
+    {
+      "sample_id": "RAW_006979",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_879.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9962,
+      "true_confidence": 0.0019
+    },
+    {
+      "sample_id": "RAW_006980",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_880.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.997,
+      "true_confidence": 0.0019
+    },
+    {
+      "sample_id": "RAW_006981",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_881.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9968,
+      "true_confidence": 0.0021
+    },
+    {
+      "sample_id": "RAW_006982",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_882.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9973,
+      "true_confidence": 0.0017
+    },
+    {
+      "sample_id": "RAW_006983",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_883.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.997,
+      "true_confidence": 0.0019
+    },
+    {
+      "sample_id": "RAW_006984",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_884.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9962,
+      "true_confidence": 0.0025
+    },
+    {
+      "sample_id": "RAW_006985",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_885.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9962,
+      "true_confidence": 0.0026
+    },
+    {
+      "sample_id": "RAW_006986",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_886.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9967,
+      "true_confidence": 0.002
+    },
+    {
+      "sample_id": "RAW_006987",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_887.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9953,
+      "true_confidence": 0.0031
+    },
+    {
+      "sample_id": "RAW_006988",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_888.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9972,
+      "true_confidence": 0.0017
+    },
+    {
+      "sample_id": "RAW_006989",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_889.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.997,
+      "true_confidence": 0.0018
+    },
+    {
+      "sample_id": "RAW_006990",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_890.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9969,
+      "true_confidence": 0.0013
+    },
+    {
+      "sample_id": "RAW_006991",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_891.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.995,
+      "true_confidence": 0.0035
+    },
+    {
+      "sample_id": "RAW_006992",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_892.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9971,
+      "true_confidence": 0.0018
+    },
+    {
+      "sample_id": "RAW_006993",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_893.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9966,
+      "true_confidence": 0.0022
+    },
+    {
+      "sample_id": "RAW_006994",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_894.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9961,
+      "true_confidence": 0.0027
+    },
+    {
+      "sample_id": "RAW_006995",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_895.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9976,
+      "true_confidence": 0.0015
+    },
+    {
+      "sample_id": "RAW_006996",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_896.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9967,
+      "true_confidence": 0.0023
+    },
+    {
+      "sample_id": "RAW_006997",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_897.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9968,
+      "true_confidence": 0.0021
+    },
+    {
+      "sample_id": "RAW_006998",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_898.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9974,
+      "true_confidence": 0.0017
+    },
+    {
+      "sample_id": "RAW_006999",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_899.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9964,
+      "true_confidence": 0.0024
+    },
+    {
+      "sample_id": "RAW_007000",
+      "participant_id": "P9",
+      "relative_path": "6/P9_6_900.jpg",
+      "true_label": "6",
+      "pred_label": "W",
+      "pred_confidence": 0.9957,
+      "true_confidence": 0.003
+    },
+    {
+      "sample_id": "RAW_017909",
+      "participant_id": "P9",
+      "relative_path": "H/P9_H_809.jpg",
+      "true_label": "H",
+      "pred_label": "7",
+      "pred_confidence": 0.4897,
+      "true_confidence": 0.4807
+    },
+    {
+      "sample_id": "RAW_017910",
+      "participant_id": "P9",
+      "relative_path": "H/P9_H_810.jpg",
+      "true_label": "H",
+      "pred_label": "7",
+      "pred_confidence": 0.7375,
+      "true_confidence": 0.2436
+    },
+    {
+      "sample_id": "RAW_017918",
+      "participant_id": "P9",
+      "relative_path": "H/P9_H_818.jpg",
+      "true_label": "H",
+      "pred_label": "7",
+      "pred_confidence": 0.6142,
+      "true_confidence": 0.3564
+    },
+    {
+      "sample_id": "RAW_017932",
+      "participant_id": "P9",
+      "relative_path": "H/P9_H_832.jpg",
+      "true_label": "H",
+      "pred_label": "7",
+      "pred_confidence": 0.7571,
+      "true_confidence": 0.2227
+    },
+    {
+      "sample_id": "RAW_017934",
+      "participant_id": "P9",
+      "relative_path": "H/P9_H_834.jpg",
+      "true_label": "H",
+      "pred_label": "7",
+      "pred_confidence": 0.8026,
+      "true_confidence": 0.1691
+    },
+    {
+      "sample_id": "RAW_017937",
+      "participant_id": "P9",
+      "relative_path": "H/P9_H_837.jpg",
+      "true_label": "H",
+      "pred_label": "7",
+      "pred_confidence": 0.7702,
+      "true_confidence": 0.2039
+    },
+    {
+      "sample_id": "RAW_017939",
+      "participant_id": "P9",
+      "relative_path": "H/P9_H_839.jpg",
+      "true_label": "H",
+      "pred_label": "7",
+      "pred_confidence": 0.8015,
+      "true_confidence": 0.1778
+    },
+    {
+      "sample_id": "RAW_017940",
+      "participant_id": "P9",
+      "relative_path": "H/P9_H_840.jpg",
+      "true_label": "H",
+      "pred_label": "7",
+      "pred_confidence": 0.7572,
+      "true_confidence": 0.2207
+    },
+    {
+      "sample_id": "RAW_017942",
+      "participant_id": "P9",
+      "relative_path": "H/P9_H_842.jpg",
+      "true_label": "H",
+      "pred_label": "7",
+      "pred_confidence": 0.6525,
+      "true_confidence": 0.321
+    },
+    {
+      "sample_id": "RAW_017947",
+      "participant_id": "P9",
+      "relative_path": "H/P9_H_847.jpg",
+      "true_label": "H",
+      "pred_label": "7",
+      "pred_confidence": 0.6639,
+      "true_confidence": 0.3071
+    },
+    {
+      "sample_id": "RAW_017949",
+      "participant_id": "P9",
+      "relative_path": "H/P9_H_849.jpg",
+      "true_label": "H",
+      "pred_label": "7",
+      "pred_confidence": 0.5476,
+      "true_confidence": 0.4087
+    },
+    {
+      "sample_id": "RAW_017951",
+      "participant_id": "P9",
+      "relative_path": "H/P9_H_851.jpg",
+      "true_label": "H",
+      "pred_label": "7",
+      "pred_confidence": 0.5269,
+      "true_confidence": 0.426
+    },
+    {
+      "sample_id": "RAW_022001",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_1000.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.5708,
+      "true_confidence": 0.4246
+    },
+    {
+      "sample_id": "RAW_022002",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_901.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.8807,
+      "true_confidence": 0.1174
+    },
+    {
+      "sample_id": "RAW_022003",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_902.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.779,
+      "true_confidence": 0.2186
+    },
+    {
+      "sample_id": "RAW_022006",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_905.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.8886,
+      "true_confidence": 0.1094
+    },
+    {
+      "sample_id": "RAW_022007",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_906.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.8735,
+      "true_confidence": 0.1244
+    },
+    {
+      "sample_id": "RAW_022008",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_907.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.6041,
+      "true_confidence": 0.3926
+    },
+    {
+      "sample_id": "RAW_022009",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_908.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.816,
+      "true_confidence": 0.1814
+    },
+    {
+      "sample_id": "RAW_022010",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_909.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.8416,
+      "true_confidence": 0.1562
+    },
+    {
+      "sample_id": "RAW_022012",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_911.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.6641,
+      "true_confidence": 0.3334
+    },
+    {
+      "sample_id": "RAW_022014",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_913.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.7907,
+      "true_confidence": 0.2067
+    },
+    {
+      "sample_id": "RAW_022015",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_914.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.5703,
+      "true_confidence": 0.4267
+    },
+    {
+      "sample_id": "RAW_022016",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_915.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.8935,
+      "true_confidence": 0.1046
+    },
+    {
+      "sample_id": "RAW_022017",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_916.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.8283,
+      "true_confidence": 0.1691
+    },
+    {
+      "sample_id": "RAW_022018",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_917.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.778,
+      "true_confidence": 0.2195
+    },
+    {
+      "sample_id": "RAW_022019",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_918.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.7955,
+      "true_confidence": 0.2022
+    },
+    {
+      "sample_id": "RAW_022020",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_919.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.828,
+      "true_confidence": 0.1697
+    },
+    {
+      "sample_id": "RAW_022022",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_921.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.6603,
+      "true_confidence": 0.3369
+    },
+    {
+      "sample_id": "RAW_022024",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_923.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.5416,
+      "true_confidence": 0.4554
+    },
+    {
+      "sample_id": "RAW_022025",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_924.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.6818,
+      "true_confidence": 0.3152
+    },
+    {
+      "sample_id": "RAW_022026",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_925.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.7867,
+      "true_confidence": 0.211
+    },
+    {
+      "sample_id": "RAW_022028",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_927.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.93,
+      "true_confidence": 0.0678
+    },
+    {
+      "sample_id": "RAW_022029",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_928.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.7967,
+      "true_confidence": 0.2007
+    },
+    {
+      "sample_id": "RAW_022030",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_929.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.8975,
+      "true_confidence": 0.1005
+    },
+    {
+      "sample_id": "RAW_022033",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_932.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.5542,
+      "true_confidence": 0.4424
+    },
+    {
+      "sample_id": "RAW_022036",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_935.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.71,
+      "true_confidence": 0.2874
+    },
+    {
+      "sample_id": "RAW_022039",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_938.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.514,
+      "true_confidence": 0.4829
+    },
+    {
+      "sample_id": "RAW_022040",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_939.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.6742,
+      "true_confidence": 0.3227
+    },
+    {
+      "sample_id": "RAW_022045",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_944.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.5829,
+      "true_confidence": 0.4139
+    },
+    {
+      "sample_id": "RAW_022047",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_946.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.6619,
+      "true_confidence": 0.3354
+    },
+    {
+      "sample_id": "RAW_022056",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_955.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.6902,
+      "true_confidence": 0.3068
+    },
+    {
+      "sample_id": "RAW_022057",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_956.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.692,
+      "true_confidence": 0.305
+    },
+    {
+      "sample_id": "RAW_022058",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_957.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.6597,
+      "true_confidence": 0.3374
+    },
+    {
+      "sample_id": "RAW_022059",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_958.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.7063,
+      "true_confidence": 0.2907
+    },
+    {
+      "sample_id": "RAW_022061",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_960.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.5054,
+      "true_confidence": 0.4911
+    },
+    {
+      "sample_id": "RAW_022068",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_967.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.6802,
+      "true_confidence": 0.3159
+    },
+    {
+      "sample_id": "RAW_022069",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_968.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.6972,
+      "true_confidence": 0.2998
+    },
+    {
+      "sample_id": "RAW_022070",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_969.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.7825,
+      "true_confidence": 0.2139
+    },
+    {
+      "sample_id": "RAW_022072",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_971.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.7446,
+      "true_confidence": 0.2521
+    },
+    {
+      "sample_id": "RAW_022073",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_972.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.5941,
+      "true_confidence": 0.4023
+    },
+    {
+      "sample_id": "RAW_022074",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_973.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.8817,
+      "true_confidence": 0.1157
+    },
+    {
+      "sample_id": "RAW_022076",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_975.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.6878,
+      "true_confidence": 0.3083
+    },
+    {
+      "sample_id": "RAW_022078",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_977.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.7222,
+      "true_confidence": 0.2736
+    },
+    {
+      "sample_id": "RAW_022079",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_978.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9402,
+      "true_confidence": 0.0567
+    },
+    {
+      "sample_id": "RAW_022080",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_979.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.527,
+      "true_confidence": 0.4698
+    },
+    {
+      "sample_id": "RAW_022081",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_980.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9776,
+      "true_confidence": 0.0201
+    },
+    {
+      "sample_id": "RAW_022082",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_981.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9478,
+      "true_confidence": 0.0491
+    },
+    {
+      "sample_id": "RAW_022083",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_982.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.624,
+      "true_confidence": 0.3716
+    },
+    {
+      "sample_id": "RAW_022084",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_983.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.7041,
+      "true_confidence": 0.2913
+    },
+    {
+      "sample_id": "RAW_022088",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_987.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.7687,
+      "true_confidence": 0.2272
+    },
+    {
+      "sample_id": "RAW_022091",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_990.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.6925,
+      "true_confidence": 0.3048
+    },
+    {
+      "sample_id": "RAW_022092",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_991.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9801,
+      "true_confidence": 0.0179
+    },
+    {
+      "sample_id": "RAW_022093",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_992.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.8381,
+      "true_confidence": 0.1575
+    },
+    {
+      "sample_id": "RAW_022095",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_994.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.6434,
+      "true_confidence": 0.3528
+    },
+    {
+      "sample_id": "RAW_022096",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_995.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.5821,
+      "true_confidence": 0.4136
+    },
+    {
+      "sample_id": "RAW_022098",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_997.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.8204,
+      "true_confidence": 0.175
+    },
+    {
+      "sample_id": "RAW_022100",
+      "participant_id": "P10",
+      "relative_path": "M/P10_M_999.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.547,
+      "true_confidence": 0.449
+    },
+    {
+      "sample_id": "RAW_022901",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_801.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9992,
+      "true_confidence": 0.0006
+    },
+    {
+      "sample_id": "RAW_022902",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_802.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9951,
+      "true_confidence": 0.0044
+    },
+    {
+      "sample_id": "RAW_022903",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_803.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9874,
+      "true_confidence": 0.012
+    },
+    {
+      "sample_id": "RAW_022904",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_804.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9971,
+      "true_confidence": 0.0025
+    },
+    {
+      "sample_id": "RAW_022905",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_805.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9895,
+      "true_confidence": 0.0098
+    },
+    {
+      "sample_id": "RAW_022906",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_806.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9864,
+      "true_confidence": 0.013
+    },
+    {
+      "sample_id": "RAW_022907",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_807.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9956,
+      "true_confidence": 0.004
+    },
+    {
+      "sample_id": "RAW_022908",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_808.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9899,
+      "true_confidence": 0.0095
+    },
+    {
+      "sample_id": "RAW_022909",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_809.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9973,
+      "true_confidence": 0.0023
+    },
+    {
+      "sample_id": "RAW_022910",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_810.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9952,
+      "true_confidence": 0.0043
+    },
+    {
+      "sample_id": "RAW_022911",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_811.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9769,
+      "true_confidence": 0.0222
+    },
+    {
+      "sample_id": "RAW_022912",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_812.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9692,
+      "true_confidence": 0.0297
+    },
+    {
+      "sample_id": "RAW_022913",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_813.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9988,
+      "true_confidence": 0.001
+    },
+    {
+      "sample_id": "RAW_022914",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_814.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9686,
+      "true_confidence": 0.0304
+    },
+    {
+      "sample_id": "RAW_022915",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_815.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9803,
+      "true_confidence": 0.0189
+    },
+    {
+      "sample_id": "RAW_022916",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_816.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9663,
+      "true_confidence": 0.0328
+    },
+    {
+      "sample_id": "RAW_022917",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_817.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.712,
+      "true_confidence": 0.2856
+    },
+    {
+      "sample_id": "RAW_022918",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_818.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.7911,
+      "true_confidence": 0.2069
+    },
+    {
+      "sample_id": "RAW_022919",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_819.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9622,
+      "true_confidence": 0.0368
+    },
+    {
+      "sample_id": "RAW_022920",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_820.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9276,
+      "true_confidence": 0.0709
+    },
+    {
+      "sample_id": "RAW_022921",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_821.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9085,
+      "true_confidence": 0.0899
+    },
+    {
+      "sample_id": "RAW_022922",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_822.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.981,
+      "true_confidence": 0.0182
+    },
+    {
+      "sample_id": "RAW_022923",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_823.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.9902,
+      "true_confidence": 0.0092
+    },
+    {
+      "sample_id": "RAW_022924",
+      "participant_id": "P9",
+      "relative_path": "M/P9_M_824.jpg",
+      "true_label": "M",
+      "pred_label": "N",
+      "pred_confidence": 0.998,
+      "true_confidence": 0.0017
+    }
+  ]
+}
